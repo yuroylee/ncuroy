@@ -1,0 +1,63 @@
+
+.list-box .txt-list {
+    margin-bottom:  ;
+}
+
+.list-box .txt-list li {
+    padding-left: 20px;
+}
+
+.list-box .txt-list li:nth-child(2n) {
+}
+
+
+
+ .list-box .txt-list li a {
+    display: block;
+    line-height: 28px;
+    padding: 10px 0;
+	color:#555;
+}
+
+.list-box .txt-list li a:hover,
+.list-box .txt-list li a:focus {
+    color: #a5b800;
+}
+
+.list-box .txt-list li span {
+    line-height: 20px;
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    margin-top:3px;
+    margin-right: 25px;
+    float:left;
+	background-color: rgb(200, 221, 80);
+	padding:1px 15px;
+	min-width:90px;
+	text-align:center;
+}
+ .list-box .txt-list li span {
+    margin-right: 8px;
+}
+.list-box .txt-list li span.news-title {
+    color: #848275;
+    width: 78%;
+}
+
+.list-box .txt-list li.list-header {
+    background: none;
+    padding-left: 40px;
+    padding-right: 15px;
+    border-bottom: 1px solid #ACE7EB;
+}
+
+.list-box .txt-list li.list-header a,
+.list-box .txt-list li.list-header a span {
+    color: #ff766f;
+    font-size: 18px;
+}
+
+.list-box .txt-list li.list-header a span {
+    padding-right: 24px;
+}
