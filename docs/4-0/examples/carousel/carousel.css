@@ -18,6 +18,9 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  padding: 15px 10px;
   bottom: 3rem;
   z-index: 10;
 }
