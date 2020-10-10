@@ -115,35 +115,47 @@
       </ul>
               </div>
           </div>
-
           </div>
           <div class="col-md-5">
             <img class="featurette-image img-fluid mx-auto"  alt="Generic placeholder image" src="data/image/A.jpg">
           </div>
         </div>
-        <hr class="featurette-divider">
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto"  alt="Generic placeholder image">
-          </div>
+        
+          <div class="container text-center my-4">
+            <h2 class="featurette-heading">需求與問題<span class="text-muted"></span></h2>
+
+           <p class="font-weight-bold">The data in the table comes from the google spreadsheet</p>
+
+          <a class="btn btn-primary mb-4" href="https://docs.google.com/spreadsheets/d/1_Esh5xX6ceTLjSv7bc2mLTabmZdXhGy7GwJhoQ-rrpA/edit#gid=0" role="button" target="_blank">Click to see the source sheet</a>
+     </div>
+
+     <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>客戶需求填寫</title>
+      <link rel="stylesheet" type="text/css" href="index.css">
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    </head>
+    <body>
+      <div class="container">
+        <div>
+          <span>您的大名：</span><input id="nameValue" type="text">
         </div>
-        <hr class="featurette-divider">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto"  alt="Generic placeholder image">
-          </div>
+        <div>
+          <span>您的電話：</span><input id="phoneValue" type="text">
         </div>
-        <hr class="featurette-divider">
-        <!-- /END THE FEATURETTES -->
-      </div><!-- /.container -->
+        <div>
+          <span>您的需求：</span><input id="demandValue" type="text">
+        </div>
+        <button>送出</button>
+      </div>
+      <script type="text/javascript" src="index.js"></script>
+    </body>
+
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
