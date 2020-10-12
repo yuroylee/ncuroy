@@ -6,5 +6,5 @@ NCUROY (NCUSTAT WEBSITE)
 
 ****
 ## 先前安裝
- -. [XAMPP](https://www.apachefriends.org/download.html)
- -. [Composer](https://getcomposer.org/) 
+ 1. [XAMPP](https://www.apachefriends.org/download.html)
+ 2. [Composer](https://getcomposer.org/) 
