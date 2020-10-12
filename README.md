@@ -14,6 +14,7 @@ NCUROY (NCUSTAT WEBSITE)
  ```
  composer require google/apiclient:^2.0
  ```
+ 執行
  ```
  php news.php
  ```
