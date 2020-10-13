@@ -1,4 +1,5 @@
-
+<div class="list-box"> 
+<ul class="txt-list list-unstyled">
 <?php
 include 'sql.php';
 while ($row =   $result->fetch_assoc())
@@ -17,6 +18,8 @@ while ($row =   $result->fetch_assoc())
 <?php 
     }
 ?>
+  </ul>
+  </div>
 <div class="btn-box">
   <a  role="button" class="btn btn-outline-primary" href="?page=1" >最前頁</a>
     <?php

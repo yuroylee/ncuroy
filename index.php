@@ -95,24 +95,15 @@
       <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
-      <div class="container marketing">
+      <div class="container text-center my-4">
         <!-- START THE FEATURETTES -->
-        <hr class="featurette-divider">
-        <div class="row featurette">
-          <div class="col-md-7">
+        
+        <div class="row">
+          <div class="col-md-12">
             <h2 class="featurette-heading">最新訊息<span class="text-muted"></span></h2>
-            <div class="list-box">           
-              <div class="list-group">
-      
-                <ul class="txt-list list-unstyled">
-                  <?php include 'data/sqldata/news.php';?>
-              </ul>
-              </div>
-          </div>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto"  alt="Generic placeholder image" src="data/image/A.jpg">
-          </div>
+          
+            <?php include 'data/sqldata/news.php';?>
+     
         </div>
         
           <div class="container text-center my-4">
