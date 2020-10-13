@@ -95,17 +95,14 @@
       <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
-      <div class="container text-center my-4">
+      <div class="container marketing">
         <!-- START THE FEATURETTES -->
         
-        <div class="row">
+        <div class="row ">
           <div class="col-md-12">
             <h2 class="featurette-heading">最新訊息<span class="text-muted"></span></h2>
-          
             <?php include 'data/sqldata/news.php';?>
-     
         </div>
-        
           <div class="container text-center my-4">
             <h2 class="featurette-heading">需求與問題<span class="text-muted"></span></h2>
 
