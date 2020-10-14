@@ -6,14 +6,17 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="docs/4-0/assets/img/favicons/NCU.ico">
-    <title>講者資訊</title>
+    <title>大會資訊/Conference</title>
     <link rel="canonical" href="docs/4.0/examples/carousel/">
     <!-- Bootstrap core CSS -->
     <link href="docs/4-0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="docs/4-0/dist/css/bootstrap.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="docs/4-0/examples/carousel/carousel.css" rel="stylesheet">
     <!--style-->
     <link href="docs/4-0/dist/css/style.css" rel="stylesheet">
+    
   </head>
   <body>
     <header>
@@ -24,20 +27,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">大會資訊/Conference <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Program.html">研討會議程 / Program</a>
-            </li>
             <li class="nav-item active">
-              <a class="nav-link" href="information.html">講者資訊</a>
+              <a class="nav-link" href="index.php">大會資訊/Conference <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Registration.html">報名 / Registration</a>
+              <a class="nav-link" href="Program.php">研討會議程 / Program</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Other.html">其他資訊 / Others</a>
+              <a class="nav-link" href="information.php">講者資訊</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Registration.php">報名 / Registration</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Other.php">其他資訊 / Others</a>
             </li>
           </ul>
         </div>
@@ -95,31 +98,26 @@
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
       <div class="container marketing">
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
+        <!-- START THE FEATURETTES -->
+        
+        <div class="row ">
+          <div class="col-md-12">
+            <h2 class="featurette-heading">最新訊息<span class="text-muted"></span></h2>
+            <?php include 'data/sqldata/news.php';?>
         </div>
+          <div class="container text-center my-4">
+            <h2 class="featurette-heading">需求與問題<span class="text-muted"></span></h2>
+
+           <p class="font-weight-bold"></p>
+
+          <a class="btn btn-primary mb-4" href="https://docs.google.com/forms/d/e/1FAIpQLSfUu1rLsbfwNPQHjvhEMlMCiDrgWDcdDiNmHPHCmaoS4pw8mQ/viewform?usp=sf_link" role="button" target="_blank">需求填表</a>
+     </div>
+
+     
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2020 國立中央大學統計所:李協諭、小萱 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2020 國立中央大學統計所:李協諭、閃電小軒 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
     </main>
     <!-- Bootstrap core JavaScript
@@ -129,6 +127,8 @@
     <script>window.jQuery || document.write('<script src="docs/4-0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="docs/4-0/assets/js/vendor/popper.min.js"></script>
     <script src="docs/4-0/dist/js/bootstrap.min.js"></script>
+    <script src="docs/4-0/dist/js/bootstrap.js"></script>
+
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="docs/4-0/assets/js/vendor/holder.min.js"></script>
 </html>

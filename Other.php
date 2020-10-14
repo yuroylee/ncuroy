@@ -25,19 +25,19 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">大會資訊/Conference <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.php">大會資訊/Conference <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Program.html">研討會議程 / Program</a>
+              <a class="nav-link" href="Program.php">研討會議程 / Program</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="information.html">講者資訊</a>
+              <a class="nav-link" href="information.php">講者資訊</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Registration.html">報名 / Registration</a>
+              <a class="nav-link" href="Registration.php">報名 / Registration</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="Other.html">其他資訊 / Others</a>
+              <a class="nav-link" href="Other.php">其他資訊 / Others</a>
             </li>
           </ul>
         </div>
@@ -146,7 +146,6 @@
                         </div>
                     </div>
                 </div>
-                <hr style="filter: progid:dximagetransform.microsoft.shadow(color:#987cb9,direction:145,strength:15)" width="80%" color="#987cb9" size=1>
                 <div class="container">
                   <div class="row">
                       <div class="col-md-12">
@@ -189,7 +188,7 @@
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2020 國立中央大學統計所:李協諭、小萱 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2020 國立中央大學統計所:李協諭、閃電小軒 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
     </main>
     <!-- Bootstrap core JavaScript

@@ -1,63 +1,52 @@
 
-.list-box .txt-list {
-    margin-bottom:  ;
+.list-box.txt-list{
+    margin-bottom:5px;
 }
 
 .list-box .txt-list li {
-    padding-left: 20px;
+    padding-left: 10px;
+       margin-bottom:3px;
 }
 
-.list-box .txt-list li:nth-child(2n) {
+
+
+.list-box{
+    border: 3px solid rgba(68, 62, 156, 0.87);
+    margin-top: 25px;
+    margin-bottom:20px;
 }
-
-
 
  .list-box .txt-list li a {
     display: block;
     line-height: 28px;
     padding: 10px 0;
-	color:#555;
+    color:#555;
 }
 
 .list-box .txt-list li a:hover,
 .list-box .txt-list li a:focus {
-    color: #a5b800;
+    color: royalblue;
+    background-color: rgb(248, 217, 222);
 }
 
 .list-box .txt-list li span {
     line-height: 20px;
     display: block;
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
     margin-top:3px;
     margin-right: 25px;
     float:left;
-	background-color: rgb(200, 221, 80);
-	padding:1px 15px;
+	background-color: rgb(63, 170, 72);
+	padding:1px 10px;
 	min-width:90px;
 	text-align:center;
 }
- .list-box .txt-list li span {
-    margin-right: 8px;
-}
-.list-box .txt-list li span.news-title {
-    color: #848275;
-    width: 78%;
-}
 
-.list-box .txt-list li.list-header {
-    background: none;
-    padding-left: 40px;
-    padding-right: 15px;
-    border-bottom: 1px solid #ACE7EB;
-}
-
-.list-box .txt-list li.list-header a,
-.list-box .txt-list li.list-header a span {
-    color: #ff766f;
-    font-size: 18px;
-}
-
-.list-box .txt-list li.list-header a span {
-    padding-right: 24px;
-}
+#box {
+    padding: 10px;
+    border: 5px solid black;
+    width: 1200px;
+    height: 800px;
+    margin-top: 50px;
+  }

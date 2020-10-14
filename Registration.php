@@ -25,19 +25,19 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">大會資訊/Conference <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.php">大會資訊/Conference <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Program.html">研討會議程 / Program</a>
+              <a class="nav-link" href="Program.phpl">研討會議程 / Program</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="information.html">講者資訊</a>
+              <a class="nav-link" href="information.php">講者資訊</a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="Registration.html">報名 / Registration</a>
+              <a class="nav-link" href="Registration.php">報名 / Registration</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Other.html">其他資訊 / Others</a>
+              <a class="nav-link" href="Other.php">其他資訊 / Others</a>
             </li>
           </ul>
         </div>
@@ -230,40 +230,18 @@
 
 
 
-        <hr class="featurette-divider">
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading">匯款方式<span class="text-muted">See for yourself.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <div id="contain">
              
 
 
 
-          <div class="col-md-5 order-md-1">
-            <img class="featurette-image img-fluid mx-auto"  alt="Generic placeholder image">
-          </div>
-        </div>
 
-
-
-        <hr class="featurette-divider">
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-          <div class="col-md-5">
-            <img class="featurette-image img-fluid mx-auto"  alt="Generic placeholder image">
-          </div>
-        </div>
         <hr class="featurette-divider">
         <!-- /END THE FEATURETTES -->
       </div><!-- /.container -->
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2020 國立中央大學統計所:李協諭、小萱 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; 2020 國立中央大學統計所:李協諭、閃電小軒 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
     </main>
     <!-- Bootstrap core JavaScript
