@@ -10,6 +10,8 @@
     <link rel="canonical" href="docs/4.0/examples/carousel/">
     <!-- Bootstrap core CSS -->
     <link href="docs/4-0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="docs/4-0/dist/css/bootstrap.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
     <link href="docs/4-0/examples/carousel/carousel.css" rel="stylesheet">
     <!--style-->
@@ -106,9 +108,9 @@
           <div class="container text-center my-4">
             <h2 class="featurette-heading">需求與問題<span class="text-muted"></span></h2>
 
-           <p class="font-weight-bold">The data in the table comes from the google spreadsheet</p>
+           <p class="font-weight-bold"></p>
 
-          <a class="btn btn-primary mb-4" href="https://docs.google.com/spreadsheets/d/1_Esh5xX6ceTLjSv7bc2mLTabmZdXhGy7GwJhoQ-rrpA/edit#gid=0" role="button" target="_blank">Click to see the source sheet</a>
+          <a class="btn btn-primary mb-4" href="https://docs.google.com/forms/d/e/1FAIpQLSfUu1rLsbfwNPQHjvhEMlMCiDrgWDcdDiNmHPHCmaoS4pw8mQ/viewform?usp=sf_link" role="button" target="_blank">需求填表</a>
      </div>
 
      
@@ -125,6 +127,8 @@
     <script>window.jQuery || document.write('<script src="docs/4-0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="docs/4-0/assets/js/vendor/popper.min.js"></script>
     <script src="docs/4-0/dist/js/bootstrap.min.js"></script>
+    <script src="docs/4-0/dist/js/bootstrap.js"></script>
+
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="docs/4-0/assets/js/vendor/holder.min.js"></script>
 </html>
