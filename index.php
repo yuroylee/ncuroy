@@ -13,7 +13,7 @@
     <!-- Custom styles for this template -->
     <link href="docs/4-0/examples/carousel/carousel.css" rel="stylesheet">
     <!--style-->
-    <link href="docs/4-0/dist/css/style.css" rel="stylesheet">
+    <link href="docs/style.css" rel="stylesheet">
     <style>
 
     </style>
@@ -116,10 +116,12 @@
               href="https://docs.google.com/forms/d/e/1FAIpQLSfUu1rLsbfwNPQHjvhEMlMCiDrgWDcdDiNmHPHCmaoS4pw8mQ/viewform?usp=sf_link"role="button"
               target="_blank">需求填表</a>
             </div>
+            
           </div>
         </div>
       </div>
-     
+      <hr class="featurette-divider">
+ 
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
