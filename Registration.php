@@ -13,7 +13,7 @@
     <!-- Custom styles for this template -->
     <link href="docs/4-0/examples/carousel/carousel.css" rel="stylesheet">
     <!--style-->
-    <link href="docs/4-0/dist/css/style.css" rel="stylesheet">
+    <link href="docs/style.css" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -28,7 +28,7 @@
               <a class="nav-link" href="index.php">大會資訊/Conference <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Program.phpl">研討會議程 / Program</a>
+              <a class="nav-link" href="Program.php">研討會議程 / Program</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="information.php">講者資訊</a>

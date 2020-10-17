@@ -13,7 +13,7 @@
     <!-- Custom styles for this template -->
     <link href="docs/4-0/examples/carousel/carousel.css" rel="stylesheet">
     <!--style-->
-    <link href="docs/4-0/dist/css/style.css" rel="stylesheet">
+    <link href="docs/style.css" rel="stylesheet">
   </head>
   <body>
     <header>
