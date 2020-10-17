@@ -10,13 +10,13 @@
     <link rel="canonical" href="docs/4.0/examples/carousel/">
     <!-- Bootstrap core CSS -->
     <link href="docs/4-0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="docs/4-0/dist/css/bootstrap.css" rel="stylesheet">
-
     <!-- Custom styles for this template -->
     <link href="docs/4-0/examples/carousel/carousel.css" rel="stylesheet">
     <!--style-->
-    <link href="docs/4-0/dist/css/style.css" rel="stylesheet">
-    
+    <link href="docs/style.css" rel="stylesheet">
+    <style>
+
+    </style>
   </head>
   <body>
     <header>
@@ -104,16 +104,24 @@
           <div class="col-md-12">
             <h2 class="featurette-heading">最新訊息<span class="text-muted"></span></h2>
             <?php include 'data/sqldata/news.php';?>
+          </div>
         </div>
-          <div class="container text-center my-4">
-            <h2 class="featurette-heading">需求與問題<span class="text-muted"></span></h2>
+        <hr class="featurette-divider">
 
-           <p class="font-weight-bold"></p>
-
-          <a class="btn btn-primary mb-4" href="https://docs.google.com/forms/d/e/1FAIpQLSfUu1rLsbfwNPQHjvhEMlMCiDrgWDcdDiNmHPHCmaoS4pw8mQ/viewform?usp=sf_link" role="button" target="_blank">需求填表</a>
-     </div>
-
-     
+        <div class='row'>
+          <div style="height: 800 px; width:auto;">
+            <div class="article section1">
+              <h2 class="featurette-heading">需求與問題<span class="text-muted"></span></h2>
+              <a class="btn btn-primary mb-4" 
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfUu1rLsbfwNPQHjvhEMlMCiDrgWDcdDiNmHPHCmaoS4pw8mQ/viewform?usp=sf_link"role="button"
+              target="_blank">需求填表</a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+ 
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
@@ -127,8 +135,6 @@
     <script>window.jQuery || document.write('<script src="docs/4-0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="docs/4-0/assets/js/vendor/popper.min.js"></script>
     <script src="docs/4-0/dist/js/bootstrap.min.js"></script>
-    <script src="docs/4-0/dist/js/bootstrap.js"></script>
-
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="docs/4-0/assets/js/vendor/holder.min.js"></script>
 </html>

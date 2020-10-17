@@ -8,7 +8,31 @@
        margin-bottom:3px;
 }
 
+.article{
+    width:1200px;
+    max-width:70%;
+    margin:0 auto;
+    height:400px;
+    padding:40px;
+    font:24px 'Arial';
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center center;
+    background-size:cover;
+    line-height:28px;
+    text-align: center;
+    }
 
+.section1{
+    color:#fff;
+    background-image:url("../data/image/pic-3.jpg");
+    text-shadow:5px 4px 5px #575353;
+    font-weight:bold;
+    
+}
+.section1 .h2{
+  background-color: #777;
+}
 
 .list-box{
     border: 3px solid rgba(68, 62, 156, 0.87);
