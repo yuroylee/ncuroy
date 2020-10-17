@@ -28,7 +28,7 @@
               <a class="nav-link" href="index.php">大會資訊/Conference <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Program.phpl">研討會議程 / Program</a>
+              <a class="nav-link" href="Program.php">研討會議程 / Program</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="information.php">講者資訊</a>
