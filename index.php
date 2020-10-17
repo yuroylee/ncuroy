@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="docs/4-0/assets/img/favicons/NCU.ico">
-    <title>大會資訊/Conference</title>
+    <title>講者資訊</title>
     <link rel="canonical" href="docs/4.0/examples/carousel/">
     <!-- Bootstrap core CSS -->
     <link href="docs/4-0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,9 +14,6 @@
     <link href="docs/4-0/examples/carousel/carousel.css" rel="stylesheet">
     <!--style-->
     <link href="docs/style.css" rel="stylesheet">
-    <style>
-
-    </style>
   </head>
   <body>
     <header>
@@ -107,7 +104,7 @@
           </div>
         </div>
         <hr class="featurette-divider">
-
+      <div class="container-fluid px-0">
         <div class='row'>
           <div style="height: 800 px; width:auto;">
             <div class="article section1">
@@ -119,13 +116,13 @@
             
           </div>
         </div>
+        </div>
       </div>
       <hr class="featurette-divider">
- 
       <!-- FOOTER -->
       <footer class="container">
         <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2020 國立中央大學統計所:李協諭、閃電小軒 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        <p>&copy; <script>document.write(new Date().getFullYear());</script> 國立中央大學統計所:李協諭、閃電小軒 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
       </footer>
     </main>
     <!-- Bootstrap core JavaScript
