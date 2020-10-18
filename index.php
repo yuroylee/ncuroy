@@ -66,116 +66,17 @@
 			</div>
 		</div>
 	</section>
-
-	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-primary">
-		<div class="container">
-			<div class="row d-flex">
-				<div class="col-md-7 py-5">
-					<div class="py-lg-5">
-						<div class="row justify-content-center pb-5">
-							<div class="col-md-12 heading-section ftco-animate">
-								<h2 class="mb-3">Why Choose To Rent In Equipo</h2>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-customer-service"></span></div>
-									<div class="media-body pl-4">
-										<h3 class="heading mb-3">24/7 Customer Service</h3>
-										<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-									</div>
-								</div>      
-							</div>
-							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-road-roller"></span></div>
-									<div class="media-body pl-4">
-										<h3 class="heading mb-3">Prompt Delivery</h3>
-										<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-									</div>
-								</div>      
-							</div>
-							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-road-roller"></span></div>
-									<div class="media-body pl-4">
-										<h3 class="heading mb-3">Reliable Equipment</h3>
-										<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-									</div>
-								</div>      
-							</div>
-							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-road-roller"></span></div>
-									<div class="media-body pl-4">
-										<h3 class="heading mb-3">New Heavy Equipment</h3>
-										<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-									</div>
-								</div>      
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-5 d-flex">
-					<div class="appointment-wrap p-4 p-lg-5 d-flex align-items-center">
-						<div class="overlay"></div>
-						<form action="#" class="appointment-form ftco-animate">
-							<h3>Request Quote</h3>
-							<div class="">
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="First Name">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Last Name">
-								</div>
-								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Phone">
-								</div>
-							</div>
-							<div class="">
-								<div class="form-group">
-									<div class="form-field">
-										<div class="select-wrap">
-											<div class="icon"><span class="fa fa-chevron-down"></span></div>
-											<select name="" id="" class="form-control">
-												<option value="">Select Your Services</option>
-												<option value="">Forklift</option>
-												<option value="">Bulldozer</option>
-												<option value="">Excavator</option>
-												<option value="">Road Roller</option>
-												<option value="">Other Services</option>
-											</select>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="">
-								<div class="form-group">
-									<textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
-								</div>
-								<div class="form-group">
-									<input type="submit" value="Appointment" class="btn btn-primary py-3 px-4">
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
 	<section class="ftco-section ftco-counter ftco-no-pt ftco-no-pb" id="about-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 d-flex align-items-stretch">
-					<div class="about-wrap img w-100" style="background-image: url(images/about.jpg);">
+					<div class="about-wrap img w-100" style="background-image: url(images/about1.jpg);">
 					</div>
 				</div>
 				<div class="col-md-6 py-5 pl-md-5">
 					<div class="row justify-content-center mb-4 pt-md-4">
 						<div class="col-md-12 heading-section ftco-animate">
-							<span class="subheading">Welcome to Equipo</span>
+							<span class="subheading">歡迎來到本站</span>
 							<h2 class="mb-4">Welcome to Equipo A Rental Heavy Equipment</h2>
 							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 						</div>
@@ -219,8 +120,77 @@
 		</div>
 	</section>
 
-	<section class="ftco-intro img" style="background-image: url(images/bg_3.jpg);">
-		<div class="overlay"></div>
+
+
+	<section class="ftco-section bg-light">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<span class="subheading">Our Blog</span>
+					<h2 class="mb-4">Latest Blog Updates</h2>
+				</div>
+			</div>
+			<div class="row d-flex">
+				<div class="col-lg-4 ftco-animate">
+					<div class="blog-entry">
+						<a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
+						</a>
+						<div class="text d-block">
+							<div class="meta">
+								<p>
+									<a href="#"><span class="fa fa-calendar mr-2"></span>Aug. 27, 2020</a>
+									<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
+									<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
+								</p>
+							</div>
+							<h3 class="heading"><a href="#">New Heavy Equipment To Launch</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
+							<p><a href="blog.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 ftco-animate">
+					<div class="blog-entry">
+						<a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
+						</a>
+						<div class="text d-block">
+							<div class="meta">
+								<p>
+									<a href="#"><span class="fa fa-calendar mr-2"></span>Aug. 27, 2020</a>
+									<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
+									<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
+								</p>
+							</div>
+							<h3 class="heading"><a href="#">New Heavy Equipment To Launch</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
+							<p><a href="blog.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 ftco-animate">
+					<div class="blog-entry">
+						<a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
+						</a>
+						<div class="text d-block">
+							<div class="meta">
+								<p>
+									<a href="#"><span class="fa fa-calendar mr-2"></span>Aug. 27, 2020</a>
+									<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
+									<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
+								</p>
+							</div>
+							<h3 class="heading"><a href="#">New Heavy Equipment To Launch</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
+							<p><a href="blog.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ftco-intro img" style="background-image: url(images/bg_3.jpg);opacity:.9;">
+		<div class="overlay" style="background: #999db9; "></div>
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-12 text-center">
@@ -232,54 +202,6 @@
 		</div>
 	</section>
 
-	<section class="ftco-section">
-		<div class="container-fluid px-md-4">
-			<div class="row justify-content-center mb-5 pb-2">
-				<div class="col-md-8 text-center heading-section ftco-animate">
-					<span class="subheading">Services</span>
-					<h2 class="mb-4">Rental Services</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3">
-					<div class="services-wrap">
-						<div class="img" style="background-image: url(images/services-1.jpg);"></div>
-						<div class="text">
-							<h2>Bulldozer</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="services-wrap">
-						<div class="img" style="background-image: url(images/services-2.jpg);"></div>
-						<div class="text">
-							<h2>Forklift</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="services-wrap">
-						<div class="img" style="background-image: url(images/services-3.jpg);"></div>
-						<div class="text">
-							<h2>Crane</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="services-wrap">
-						<div class="img" style="background-image: url(images/services-4.jpg);"></div>
-						<div class="text">
-							<h2>Excavator</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<section class="ftco-section testimony-section img" style="background-image: url(images/bg_1.jpg);">
 		<div class="overlay"></div>
@@ -369,73 +291,7 @@
 		</div>
 	</section>
 
-	<section class="ftco-section bg-light">
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-3">
-				<div class="col-md-10 heading-section text-center ftco-animate">
-					<span class="subheading">Our Blog</span>
-					<h2 class="mb-4">Latest Blog Updates</h2>
-				</div>
-			</div>
-			<div class="row d-flex">
-				<div class="col-lg-4 ftco-animate">
-					<div class="blog-entry">
-						<a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-						</a>
-						<div class="text d-block">
-							<div class="meta">
-								<p>
-									<a href="#"><span class="fa fa-calendar mr-2"></span>Aug. 27, 2020</a>
-									<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-									<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
-								</p>
-							</div>
-							<h3 class="heading"><a href="#">New Heavy Equipment To Launch</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-							<p><a href="blog.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
-						</div>
-					</div>
-				</div>
 
-				<div class="col-lg-4 ftco-animate">
-					<div class="blog-entry">
-						<a href="blog-single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-						</a>
-						<div class="text d-block">
-							<div class="meta">
-								<p>
-									<a href="#"><span class="fa fa-calendar mr-2"></span>Aug. 27, 2020</a>
-									<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-									<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
-								</p>
-							</div>
-							<h3 class="heading"><a href="#">New Heavy Equipment To Launch</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-							<p><a href="blog.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 ftco-animate">
-					<div class="blog-entry">
-						<a href="blog-single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-						</a>
-						<div class="text d-block">
-							<div class="meta">
-								<p>
-									<a href="#"><span class="fa fa-calendar mr-2"></span>Aug. 27, 2020</a>
-									<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
-									<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
-								</p>
-							</div>
-							<h3 class="heading"><a href="#">New Heavy Equipment To Launch</a></h3>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia...</p>
-							<p><a href="blog.html" class="btn btn-secondary py-2 px-3">Read more</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<?php include "footer.php" ?>
 	</body>

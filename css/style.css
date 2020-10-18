@@ -8751,7 +8751,7 @@ h1, h2, h3, h4, h5,
     bottom: 0;
     content: '';
     opacity: .9;
-    background: #042e4f;
+    background: #101b5c;
     z-index: -2; }
   .ftco-intro:after {
     position: absolute;
