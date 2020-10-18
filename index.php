@@ -51,7 +51,7 @@
 	</nav>
 </header>
 	<!-- END nav -->
-	<section class="hero-wrap js-fullheight" style="background-image: url('images/NCUE.jpg');" data-stellar-background-ratio="0.5">
+	<section class="hero-wrap js-fullheight" style="background-image: url('images/NCU.jpg');" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -77,8 +77,8 @@
 					<div class="row justify-content-center mb-4 pt-md-4">
 						<div class="col-md-12 heading-section ftco-animate">
 							<span class="subheading">歡迎來到本站</span>
-							<h2 class="mb-4">Welcome to Equipo A Rental Heavy Equipment</h2>
-							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<h2 class="mb-4">歡迎參加中央統計研討會 (主辦人)中央統研所</h2>
+							<p> 為了促進統計界</p>
 						</div>
 					</div>
 					<div class="row">
@@ -86,7 +86,7 @@
 							<div class="block-18">
 								<div class="text">
 									<strong class="number" data-number="50">0</strong>
-									<span>Years of Experienced</span>
+									<span>瀏覽人數</span>
 								</div>
 							</div>
 						</div>
@@ -94,7 +94,7 @@
 							<div class="block-18">
 								<div class="text">
 									<strong class="number" data-number="4500">0</strong>
-									<span>Customers Served</span>
+									<span>講者</span>
 								</div>
 							</div>
 						</div>
@@ -102,7 +102,7 @@
 							<div class="block-18">
 								<div class="text">
 									<strong class="number" data-number="300">0</strong>
-									<span>Number of Equipment</span>
+									<span>Number of XXX</span>
 								</div>
 							</div>
 						</div>
@@ -189,8 +189,8 @@
 			</div>
 		</div>
 	</section>
-	<section class="ftco-intro img" style="background-image: url(images/bg_3.jpg);opacity:.9;">
-		<div class="overlay" style="background: #999db9; "></div>
+	<section class="ftco-intro img" style="background-image: url(images/bg_4.jpg);">
+		<div class="overlay" ></div>
 		<div class="container">
 			<div class="row justify-content-center">
 				<div class="col-md-12 text-center">
@@ -203,96 +203,10 @@
 	</section>
 
 
-	<section class="ftco-section testimony-section img" style="background-image: url(images/bg_1.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row justify-content-center mb-5 pb-3">
-				<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-					<span class="subheading">Read Testimonials</span>
-					<h2 class="mb-4">Our Happy Customer Says</h2>
-				</div>
-			</div>
-			<div class="row ftco-animate justify-content-center">
-				<div class="col-md-12">
-					<div class="carousel-testimony owl-carousel ftco-owl">
-						<div class="item">
-							<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between">
-								<div class="user-img" style="background-image: url(images/person_1.jpg)">
-									<span class="quote d-flex align-items-center justify-content-center">
-										<i class="fa fa-quote-left"></i>
-									</span>
-								</div>
-								<div class="text">
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia</p>
-									<p class="name">Jeff Freshman</p>
-									<span class="position">Guests</span>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between">
-								<div class="user-img" style="background-image: url(images/person_2.jpg)">
-									<span class="quote d-flex align-items-center justify-content-center">
-										<i class="fa fa-quote-left"></i>
-									</span>
-								</div>
-								<div class="text">
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia</p>
-									<p class="name">Jeff Freshman</p>
-									<span class="position">Guests</span>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between">
-								<div class="user-img" style="background-image: url(images/person_3.jpg)">
-									<span class="quote d-flex align-items-center justify-content-center">
-										<i class="fa fa-quote-left"></i>
-									</span>
-								</div>
-								<div class="text">
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia</p>
-									<p class="name">Jeff Freshman</p>
-									<span class="position">Guests</span>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between">
-								<div class="user-img" style="background-image: url(images/person_1.jpg)">
-									<span class="quote d-flex align-items-center justify-content-center">
-										<i class="fa fa-quote-left"></i>
-									</span>
-								</div>
-								<div class="text">
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia</p>
-									<p class="name">Jeff Freshman</p>
-									<span class="position">Guests</span>
-								</div>
-							</div>
-						</div>
-						<div class="item">
-							<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between">
-								<div class="user-img" style="background-image: url(images/person_3.jpg)">
-									<span class="quote d-flex align-items-center justify-content-center">
-										<i class="fa fa-quote-left"></i>
-									</span>
-								</div>
-								<div class="text">
-									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia</p>
-									<p class="name">Jeff Freshman</p>
-									<span class="position">Guests</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 
 
+	<?php include "sponsor.php" ?>
 	<?php include "footer.php" ?>
 	</body>
 	</html>

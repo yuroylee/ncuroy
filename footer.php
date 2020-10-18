@@ -27,7 +27,7 @@
        <div class="ftco-footer-widget">
         <h2 class="ftco-heading-2">會場</h2>
         <ul class="list-unstyled">
-           <li><a href="blog.php"><span class="fa fa-chevron-right mr-2"></span>會場花絮</a></li>
+           <li><a href="highlight.php"><span class="fa fa-chevron-right mr-2"></span>會場花絮</a></li>
 
         </ul>
       </div>

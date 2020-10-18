@@ -1,84 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-tw">
 <head>
-  <title>Equipo - Free Bootstrap 4 Template by Colorlib</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<title>大會資訊</title>	<meta charset="utf-8">
+	<link rel="icon" href="images/NCU.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <link rel="stylesheet" href="css/animate.css">
-  
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-  <link rel="stylesheet" href="css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/animate.css">
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
 
-  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-  <link rel="stylesheet" href="css/jquery.timepicker.css">
-  
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+	
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="py-3">
-   <div class="container">
-    <div class="row d-flex align-items-start align-items-center px-3 px-md-0">
-     <div class="col-md-4 d-flex mb-2 mb-md-0">
-      <a class="navbar-brand d-flex align-items-center" href="index.html"><span class="flaticon flaticon-road-roller"></span><span>Equipo <small>Rental Heavy Equipment</small></span></a>
-    </div>
-    <div class="col-md-4 d-flex topper mb-md-0 mb-2 align-items-center">
-      <div class="icon d-flex justify-content-center align-items-center">
-       <span class="fa fa-map"></span>
-     </div>
-     <div class="pr-md-4 pl-md-3 pl-3 text">
-       <p class="con"><span>Free Call</span> <span>+1 234 456 78910</span></p>
-       <p class="con">Call Us Now 24/7 Customer Support</p>
-     </div>
-   </div>
-   <div class="col-md-4 d-flex topper mb-md-0 align-items-center">
-    <div class="icon d-flex justify-content-center align-items-center"><span class="fa fa-paper-plane"></span>
-    </div>
-    <div class="text pl-3 pl-md-3">
-     <p class="hr"><span>Our Location</span></p>
-     <p class="con">198 West 21th Street, Suite 721 New York NY 10016</p>
-   </div>
- </div>
-</div>
-</div>
-</div>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
- <div class="container d-flex align-items-center">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-   <span class="fa fa-bars"></span> Menu
- </button>
- <div class="collapse navbar-collapse" id="ftco-nav">
-   <ul class="navbar-nav m-auto">
-    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-    <li class="nav-item"><a href="services.html" class="nav-link">Rental Services</a></li>
-    <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-    <li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
-    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-    <li class="nav-item cta"><a href="contact.html" class="nav-link">Request A Quote</a></li>
-  </ul>
-</div>
-</div>
-</nav>
-<!-- END nav -->
-
-<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
-  <div class="overlay"></div>
-  <div class="container">
-    <div class="row no-gutters slider-text align-items-end justify-content-start">
-      <div class="col-md-9 ftco-animate pb-5">
-       <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Blog <i class="fa fa-chevron-right"></i></span></p>
-       <h1 class="mb-3 bread">Blog</h1>
-     </div>
-   </div>
- </div>
-</section>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container d-flex align-items-center">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span> Menu
+			</button>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+          	<ul class="navbar-nav mr-auto">
+            	<li class="nav-item">
+              	<a class="nav-link" href="index.php">大會資訊/Conference <span class="sr-only">(current)</span></a>
+            	</li>
+           	 	<li class="nav-item">
+              	<a class="nav-link" href="Program.php">研討會議程 / Program</a>
+            	</li>
+            	<li class="nav-item">
+              	<a class="nav-link" href="information.php">講者資訊</a>
+            	</li>
+            	<li class="nav-item">
+             	 <a class="nav-link" href="Registration.php">報名 / Registration</a>
+            	</li>
+            	<li class="nav-item active">
+              	<a class="nav-link" href="Other.php">其他資訊 / Others</a>
+            	</li>
+          	</ul>
+        	</div>	
+		</div>
+	</nav>
+</header>
+	<!-- END nav -->
+	<section class="hero-wrap js-fullheight" style="background-image: url('images/NCU3.jpg');" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+				<div class="col-lg-9 ftco-animate text-center">
+					<div class="mt-5">
+						<h1 class="mb-4">中央大學統計演討會</h1>
+						<p class="mb-4">歡迎參加</p>
+						<p><a href="#" class="btn btn-primary">報名方式</a> 
+							<a href="#" class="btn btn-white">流程</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 <section class="ftco-section bg-light">
   <div class="container">
@@ -147,7 +134,6 @@
      <div class="meta">
       <p>
        <a href="#"><span class="fa fa-calendar mr-2"></span>Aug. 27, 2020</a>
-       <a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
        <a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
      </p>
    </div>
