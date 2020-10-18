@@ -66,9 +66,10 @@
 			</div>
 		</div>
   </section>
+<section class="ftco-section">
   <div class="container">
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-md-12  ftco-animate">
                             <h1>交通資訊</h1>
                             <hr/>
                             <div class="widget widget_trafic">
@@ -98,7 +99,7 @@
                                 </ul>
                                 <p>&nbsp;</p>
                                 <div class="row">
-                                  <div class="col-md-12">
+                                  <div class="col-md-12 ftco-animate">
                                     <hr/>  
                                     <h3>Google 中央大學鴻經館位置圖</h3>
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.8624324530447!2d121.19045715046352!3d24.970794683923458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823e9eb7cd8f7%3A0x2a40f754ff1a6598!2z5Lit5aSu5aSn5a246bS757aT6aSo!5e0!3m2!1szh-TW!2stw!4v1602253693570!5m2!1szh-TW!2stw" 
@@ -106,7 +107,7 @@
                                    </div>
                                 </div>
                                 <div class="row">
-                                    <div id="mrt-bus" class="col-md-12">
+                                    <div id="mrt-bus" class="col-md-12 ftco-animate">
                                       <hr/>  
                                         <h3>公車乘車處</h3>
                                         <iframe src="https://mapsengine.google.com/map/u/2/embed?mid=zLS3UW1uqS8A.kMQ36ph_hrvU"  width="1200" height="560" title="大眾運輸行車路線圖(將另開新視窗)"></iframe></p>
@@ -118,7 +119,7 @@
                 </div>
                 <div class="container">
                   <div class="row">
-                      <div class="col-md-12">
+                      <div class="col-md-12 ftco-animate">
                           <h1>晚宴資訊</h1>
                           <hr/>
                           <div class="widget widget_trafic">
@@ -136,7 +137,7 @@
                               </ul>
                               <p>&nbsp;</p>
                               <div class="row">
-                                <div class="col-md-12">
+                                <div class="col-md-12 ftco-animate">
                                   <hr/>  
                                   <h3>Google 晚宴位置圖</h3>
                                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.8624324530447!2d121.19045715046352!3d24.970794683923458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346823e9eb7cd8f7%3A0x2a40f754ff1a6598!2z5Lit5aSu5aSn5a246bS757aT6aSo!5e0!3m2!1szh-TW!2stw!4v1602253693570!5m2!1szh-TW!2stw" 
@@ -147,7 +148,7 @@
                       </div>
                   </div>
               </div>
-            </section>
+</section>
 
         </div>
     
