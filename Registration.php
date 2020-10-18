@@ -1,256 +1,277 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-tw">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="docs/4-0/assets/img/favicons/NCU.ico">
-    <title>報名/Registration</title>
-    <link rel="canonical" href="docs/4.0/examples/carousel/">
-    <!-- Bootstrap core CSS -->
-    <link href="docs/4-0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="docs/4-0/examples/carousel/carousel.css" rel="stylesheet">
-    <!--style-->
-    <link href="docs/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">中央大學統計所</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.php">大會資訊/Conference <span class="sr-only">(current)</span></a>
+<head>
+<title>報名方式</title>	<meta charset="utf-8">
+	<link rel="icon" href="images/NCU.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/animate.css">
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+	
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container d-flex align-items-center">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span> Menu
+			</button>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+          	<ul class="navbar-nav mr-auto">
+            	<li class="nav-item">
+              	<a class="nav-link" href="index.php">大會資訊/Conference <span class="sr-only">(current)</span></a>
+            	</li>
+           	 	<li class="nav-item">
+              	<a class="nav-link" href="Program.php">研討會議程 / Program</a>
+            	</li>
+            	<li class="nav-item">
+              	<a class="nav-link" href="information.php">講者資訊</a>
+            	</li>
+            	<li class="nav-item active">
+             	 <a class="nav-link" href="Registration.php">報名 / Registration</a>
+            	</li>
+            	<li class="nav-item">
+              	<a class="nav-link" href="Other.php">其他資訊 / Others</a>
+            	</li>
+          	</ul>
+        	</div>	
+		</div>
+	</nav>
+</header>
+	<!-- END nav -->
+	<section class="hero-wrap js-fullheight" style="background-image: url('images/NCU4.jpg');" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+				<div class="col-lg-9 ftco-animate text-center">
+					<div class="mt-5">
+						<h1 class="mb-4">中央大學統計研討會</h1>
+						<p class="mb-4">歡迎參加</p>
+						<p><a href="#" class="btn btn-primary">報名方式</a> 
+							<a href="#" class="btn btn-white">流程</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+  </section>
+  
+<section class="ftco-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 ftco-animate">
+        <h2 class="mb-3">It is a long established fact a reader be distracted</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eius mollitia suscipit, quisquam doloremque distinctio perferendis et doloribus unde architecto optio laboriosam porro adipisci sapiente officiis nemo accusamus ad praesentium? Esse minima nisi et. Dolore perferendis, enim praesentium omnis, iste doloremque quia officia optio deserunt molestiae voluptates soluta architecto tempora.</p>
+        <p>
+          <img src="images/image_3.jpg" alt="" class="img-fluid">
+        </p>
+        <p>Molestiae cupiditate inventore animi, maxime sapiente optio, illo est nemo veritatis repellat sunt doloribus nesciunt! Minima laborum magni reiciendis qui voluptate quisquam voluptatem soluta illo eum ullam incidunt rem assumenda eveniet eaque sequi deleniti tenetur dolore amet fugit perspiciatis ipsa, odit. Nesciunt dolor minima esse vero ut ea, repudiandae suscipit!</p>
+        <h2 class="mb-3 mt-5">#2. Creative WordPress Themes</h2>
+        <p>Temporibus ad error suscipit exercitationem hic molestiae totam obcaecati rerum, eius aut, in. Exercitationem atque quidem tempora maiores ex architecto voluptatum aut officia doloremque. Error dolore voluptas, omnis molestias odio dignissimos culpa ex earum nisi consequatur quos odit quasi repellat qui officiis reiciendis incidunt hic non? Debitis commodi aut, adipisci.</p>
+        <p>
+          <img src="images/image_4.jpg" alt="" class="img-fluid">
+        </p>
+        <p>Quisquam esse aliquam fuga distinctio, quidem delectus veritatis reiciendis. Nihil explicabo quod, est eos ipsum. Unde aut non tenetur tempore, nisi culpa voluptate maiores officiis quis vel ab consectetur suscipit veritatis nulla quos quia aspernatur perferendis, libero sint. Error, velit, porro. Deserunt minus, quibusdam iste enim veniam, modi rem maiores.</p>
+        <p>Odit voluptatibus, eveniet vel nihil cum ullam dolores laborum, quo velit commodi rerum eum quidem pariatur! Quia fuga iste tenetur, ipsa vel nisi in dolorum consequatur, veritatis porro explicabo soluta commodi libero voluptatem similique id quidem? Blanditiis voluptates aperiam non magni. Reprehenderit nobis odit inventore, quia laboriosam harum excepturi ea.</p>
+        <p>Adipisci vero culpa, eius nobis soluta. Dolore, maxime ullam ipsam quidem, dolor distinctio similique asperiores voluptas enim, exercitationem ratione aut adipisci modi quod quibusdam iusto, voluptates beatae iure nemo itaque laborum. Consequuntur et pariatur totam fuga eligendi vero dolorum provident. Voluptatibus, veritatis. Beatae numquam nam ab voluptatibus culpa, tenetur recusandae!</p>
+        <p>Voluptas dolores dignissimos dolorum temporibus, autem aliquam ducimus at officia adipisci quasi nemo a perspiciatis provident magni laboriosam repudiandae iure iusto commodi debitis est blanditiis alias laborum sint dolore. Dolores, iure, reprehenderit. Error provident, pariatur cupiditate soluta doloremque aut ratione. Harum voluptates mollitia illo minus praesentium, rerum ipsa debitis, inventore?</p>
+        <div class="tag-widget post-tag-container mb-5 mt-5">
+          <div class="tagcloud">
+            <a href="#" class="tag-cloud-link">Life</a>
+            <a href="#" class="tag-cloud-link">Sport</a>
+            <a href="#" class="tag-cloud-link">Tech</a>
+            <a href="#" class="tag-cloud-link">Travel</a>
+          </div>
+        </div>
+        
+        <div class="about-author d-flex p-4 bg-light">
+          <div class="bio mr-5">
+            <img src="images/person_1.jpg" alt="Image placeholder" class="img-fluid mb-4">
+          </div>
+          <div class="desc">
+            <h3>George Washington</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+          </div>
+        </div>
+
+
+        <div class="pt-5 mt-5">
+          <h3 class="mb-5">6 Comments</h3>
+          <ul class="comment-list">
+            <li class="comment">
+              <div class="vcard bio">
+                <img src="images/person_1.jpg" alt="Image placeholder">
+              </div>
+              <div class="comment-body">
+                <h3>John Doe</h3>
+                <div class="meta">August 12, 2020 at 2:21pm</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                <p><a href="#" class="reply">Reply</a></p>
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Program.php">研討會議程 / Program</a>
+
+            <li class="comment">
+              <div class="vcard bio">
+                <img src="images/person_1.jpg" alt="Image placeholder">
+              </div>
+              <div class="comment-body">
+                <h3>John Doe</h3>
+                <div class="meta">August 12, 2020 at 2:21pm</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                <p><a href="#" class="reply">Reply</a></p>
+              </div>
+
+              <ul class="children">
+                <li class="comment">
+                  <div class="vcard bio">
+                    <img src="images/person_1.jpg" alt="Image placeholder">
+                  </div>
+                  <div class="comment-body">
+                    <h3>John Doe</h3>
+                    <div class="meta">August 12, 2020 at 2:21pm</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                    <p><a href="#" class="reply">Reply</a></p>
+                  </div>
+
+                </li>
+              </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="information.php">講者資訊</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="Registration.php">報名 / Registration</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Other.php">其他資訊 / Others</a>
+
+            <li class="comment">
+              <div class="vcard bio">
+                <img src="images/person_1.jpg" alt="Image placeholder">
+              </div>
+              <div class="comment-body">
+                <h3>John Doe</h3>
+                <div class="meta">August 12, 2020 at 2:21pm</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quidem laborum necessitatibus, ipsam impedit vitae autem, eum officia, fugiat saepe enim sapiente iste iure! Quam voluptas earum impedit necessitatibus, nihil?</p>
+                <p><a href="#" class="reply">Reply</a></p>
+              </div>
             </li>
           </ul>
-        </div>
-      </nav>
-    </header>
-    <main role="main">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="first-slide" src="data/image/NCU.jpg" alt="First slide">
-            <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>主辦單位-國立中央大學統計所</h1>
-                <p>中央大學統計所成立於民國六十八年，為全國最早成立之獨立統計所，並於民國七十六年增設博士班，歷屆校友在產、官、學界均有傑出的表現。本所教師之學術研究在各領域皆為翹楚，且致力於學術之傳承。近年在新進教研人員的加入後，授課內容及統計學術研究之涵蓋面更趨多元與完備，且成果豐碩。</p>
-                <p><a class="btn btn-lg btn-primary"  href="http://www.stat.ncu.edu.tw/" role="button">NCU STAT</a></p>
+          <!-- END comment-list -->
+          
+          <div class="comment-form-wrap pt-5">
+            <h3 class="mb-5">Leave a comment</h3>
+            <form action="#" class="p-5 bg-light">
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" class="form-control" id="name">
               </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>會議主講人-</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" class="form-control" id="email">
               </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-            <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>協辦單位-(誰給錢就放誰)</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+              <div class="form-group">
+                <label for="website">Website</label>
+                <input type="url" class="form-control" id="website">
               </div>
-            </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Post Comment" class="btn py-3 px-4 btn-primary">
+              </div>
+
+            </form>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+
+      </div> <!-- .col-md-8 -->
+      <div class="col-lg-4 sidebar ftco-animate">
+        <div class="sidebar-box">
+          <form action="#" class="search-form">
+            <div class="form-group">
+              <span class="icon icon-search"></span>
+              <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
+            </div>
+          </form>
+        </div>
+        <div class="sidebar-box ftco-animate">
+         <h3 class="heading-sidebar">Rental Services</h3>
+         <ul class="categories">
+          <li><a href="#">Bulldozer <span>(12)</span></a></li>
+          <li><a href="#">Forklift <span>(22)</span></a></li>
+          <li><a href="#">Crane <span>(37)</span></a></li>
+          <li><a href="#">Excavator <span>(42)</span></a></li>
+          <li><a href="#">Road Roller <span>(42)</span></a></li>
+          <li><a href="#">Dump Truck <span>(42)</span></a></li>
+        </ul>
       </div>
-      <!-- Marketing messaging and featurettes
-      ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-      <div class="container marketing">
 
-        <table class="table table-bordered">
-          <thead>
-          <tr>
-          <td class="td_sign1" colspan="2">
-            身分別<br>Category
-          </td>
-            <td >
-              早鳥線上註冊費(7/15前)<br>	Online registration
-            </td>
-              <td >
-                線上註冊費(7/16-7/31)<br>Online registration
-              </td>
-                <td >
-                  現場註冊費(8/20-8/21)<br>On-site registration
-                </td>
-                  </tr>
-                  <tr>
-                  <td class="td_sign1" colspan="2">
-                    學生<br>Student
-                  </td>
-                    <td >
-                      500
-                    </td>
-                      <td  >
-                        800			  
-                      </td>
-                        <td >
-                          1000
-                        </td>
-                          </tr>
-                          
-                          <tr>
-                          <td class="td_sign1" width="83" rowspan="2">
-                            非學生<br>Non-Student
-                          </td>
-                            <td  width="123">
-                              CIPS會員<br>CIPS member
-                            </td>
-                              <td >
-                                1000
-                              </td>
-                                <td >
-                                  1600
-                                </td>
-                                  <td  >
-                                    2000
-                                  </td>
-                                    </tr>
-                                    <tr>
-                                    <td   width="123">
-                                      非CIPS會員<br>Non-CIPS member
-                                    </td>
-                                      <td >
-                                        1200
-                                      </td>
-                                        <td >
-                                          2000
-                                        </td>
-                                          <td >
-                                            2500
-                                          </td>
-                                            </tr>
-                                            <tr>
-                                            <td class="td_sign1" colspan="2">
-                                              陪同眷屬**<br>Accompanying person**
-                                              </td>
-                                              <td >
-                                              600
-                                            </td>
-                                              <td>
-                                              800
-                                            </td>
-                                              <td>
-                                              1000
-                                            </td>
-                                              </tr>
-                                              </tbody>
-                                              </table>
-
-        <!-- START THE FEATURETTES -->
-        <hr class="featurette-divider">
-        <div class="title2">線上報名</div>
-        <div class="text">
-          <ul>
-          <li>線上報名截止日期: 2020/7/15。</li>
-          <li>研討會期間也接受現場報名。</li>
-          </ul>
+      <div class="sidebar-box ftco-animate">
+        <h3 class="heading-sidebar">Recent Blog</h3>
+        <div class="block-21 mb-4 d-flex">
+          <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+          <div class="text">
+            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+            <div class="meta">
+              <div><a href="#"><span class="icon-calendar"></span> Aug. 12, 2020</a></div>
+              <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+              <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+            </div>
+          </div>
         </div>
-      
-        <div class="title2">繳費說明 Payment Instructions</div>
-        <table class="table_hotel">
-          <tr><td>
-          <ul>
-            <div style="color:red;">***繳費注意事項***</div>
-          <b>早鳥線上註冊費</b>繳費截止日期：2020 / 7 / 15前<br>
-          <b>線上註冊費</b>繳費截止日期 : 2020 / 7 / 31
-          </ul>
-        </td></tr>
-        <tr><td>
-          一、匯款(利用郵局或銀行匯款、ATM 轉帳亦可)：<br>
-          匯款資料
-          <ul>
-            <li>銀行名稱：永豐銀行(代碼807)</li>
-          <li>受款人姓名：中華機率統計學會</li>
-          <li>受款人帳號：04401800090391</li>
-          <li>如臨櫃繳款請填 興大分行(0449)</li>
-            </ul>
-        </td></tr>
-        <tr><td>
-          繳費後請務必來信：cips.receipt@gmail.com，告知以下資料，以利身份核對以及收據的開立，謝謝您！
-        </td></tr>
-        <tr><td>
-          <ul>
-            信件格式如下：
-              <li>收信人：cips.receipt@gmail.com</li>
-              <li>主旨：2020南區統計研討會報名費繳費帳號回報</li>
-              <li>內文：</li>
-                 1.匯款人姓名：<br>
-                 2.收據Title(姓名或單位名稱/統編)：<br>
-                 3.銀行帳號後5碼：<br>
-                 4.聯絡電話：<br>
-                 5.email：<br>
-                 6.轉帳日期：<br>
-                 7.轉帳金額：<br>
-            </ul>
-        </td></tr>
-        <tr><td>
-          二、信用卡繳費:<br>
-          請下載「信用卡刷卡授權單」<a href=".\file\信用卡刷卡授權單-中.docx">中文</a> / <a href=".\file\credit card authorization-english.docx">English</a>，填寫完成後將掃描檔E-mail至<a href="mailto:cips.receipt@gmail.com">cips.receipt@gmail.com</a>即可，謝謝您！<br>
-        </td></tr>
-        </table>
+        <div class="block-21 mb-4 d-flex">
+          <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+          <div class="text">
+            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+            <div class="meta">
+              <div><a href="#"><span class="icon-calendar"></span> Aug. 12, 2020</a></div>
+              <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+              <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="block-21 mb-4 d-flex">
+          <a class="blog-img mr-4" style="background-image: url(images/image_3.jpg);"></a>
+          <div class="text">
+            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about the blind texts</a></h3>
+            <div class="meta">
+              <div><a href="#"><span class="icon-calendar"></span> Aug. 12, 2020</a></div>
+              <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+              <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
+      <div class="sidebar-box ftco-animate">
+        <h3 class="heading-sidebar">Tag Cloud</h3>
+        <div class="tagcloud">
+          <a href="#" class="tag-cloud-link">rent</a>
+          <a href="#" class="tag-cloud-link">heavy</a>
+          <a href="#" class="tag-cloud-link">truck</a>
+          <a href="#" class="tag-cloud-link">boom</a>
+          <a href="#" class="tag-cloud-link">equipment</a>
+          <a href="#" class="tag-cloud-link">construct</a>
+          <a href="#" class="tag-cloud-link">machine</a>
+          <a href="#" class="tag-cloud-link">system</a>
+        </div>
+      </div>
 
+      <div class="sidebar-box ftco-animate">
+        <h3 class="heading-sidebar">Paragraph</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+      </div>
+    </div>
 
-             
-
-
-
-
-        <hr class="featurette-divider">
-        <!-- /END THE FEATURETTES -->
-      </div><!-- /.container -->
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2020 國立中央大學統計所:李協諭、閃電小軒 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-    </main>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="jquery-3.2.1.slim.min.js" ></script>
-    <script>window.jQuery || document.write('<script src="docs/4-0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="docs/4-0/assets/js/vendor/popper.min.js"></script>
-    <script src="docs/4-0/dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="docs/4-0/assets/js/vendor/holder.min.js"></script>
+  </div>
+  </div>
+</section> <!-- .section -->
+<?php include "footer.php" ?>
+</body>
 </html>
