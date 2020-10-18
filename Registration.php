@@ -51,13 +51,13 @@
 	</nav>
 </header>
 	<!-- END nav -->
-	<section class="hero-wrap js-fullheight" style="background-image: url('images/NCUE.jpg');" data-stellar-background-ratio="0.5">
+	<section class="hero-wrap js-fullheight" style="background-image: url('images/NCU4.jpg');" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
 				<div class="col-lg-9 ftco-animate text-center">
 					<div class="mt-5">
-						<h1 class="mb-4">中央大學統計演討會</h1>
+						<h1 class="mb-4">中央大學統計研討會</h1>
 						<p class="mb-4">歡迎參加</p>
 						<p><a href="#" class="btn btn-primary">報名方式</a> 
 							<a href="#" class="btn btn-white">流程</a></p>
@@ -270,7 +270,7 @@
     </div>
 
   </div>
-</div>
+  </div>
 </section> <!-- .section -->
 <?php include "footer.php" ?>
 </body>
