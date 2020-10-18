@@ -1,134 +1,158 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="zh-tw">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="docs/4-0/assets/img/favicons/NCU.ico">
-    <title>講者資訊</title>
-    <link rel="canonical" href="docs/4.0/examples/carousel/">
-    <!-- Bootstrap core CSS -->
-    <link href="docs/4-0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="docs/4-0/examples/carousel/carousel.css" rel="stylesheet">
-    <!--style-->
-    <link href="docs/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">中央大學統計所</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.php">大會資訊/Conference <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Program.php">研討會議程 / Program</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="information.php">講者資訊</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Registration.php">報名 / Registration</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Other.php">其他資訊 / Others</a>
-            </li>
-          </ul>
+<head>
+<title>講者資訊</title>	<meta charset="utf-8">
+	<link rel="icon" href="images/NCU.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/animate.css">
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+	
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container d-flex align-items-center">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span> Menu
+			</button>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+          	<ul class="navbar-nav mr-auto">
+            	<li class="nav-item ">
+              	<a class="nav-link" href="index.php">大會資訊/Conference <span class="sr-only">(current)</span></a>
+            	</li>
+           	 	<li class="nav-item">
+              	<a class="nav-link" href="Program.php">研討會議程 / Program</a>
+            	</li>
+            	<li class="nav-item active">
+              	<a class="nav-link" href="information.php">講者資訊</a>
+            	</li>
+            	<li class="nav-item">
+             	 <a class="nav-link" href="Registration.php">報名 / Registration</a>
+            	</li>
+            	<li class="nav-item">
+              	<a class="nav-link" href="Other.php">其他資訊 / Others</a>
+            	</li>
+          	</ul>
+        	</div>	
+		</div>
+	</nav>
+</header>
+	<!-- END nav -->
+	<section class="hero-wrap js-fullheight" style="background-image: url('images/NCU1.jpg');" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
+				<div class="col-lg-9 ftco-animate text-center">
+					<div class="mt-5">
+						<h1 class="mb-4">中央大學統計演討會</h1>
+						<p class="mb-4">歡迎參加</p>
+						<p><a href="#" class="btn btn-primary">報名方式</a> 
+							<a href="#" class="btn btn-white">流程</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+  <div class="container">
+   <div class="row justify-content-center mb-5 pb-3">
+    <div class="col-md-7 heading-section text-center ftco-animate">
+      <span class="subheading">Contact us</span>
+      <h2 class="mb-4">Rent A Heavy Equipment?</h2>
+      <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+    </div>
+  </div>
+
+  <div class="row block-9">
+    <div class="col-md-8">
+      <form action="#" class="p-4 p-md-5 contact-form">
+       <div class="row">
+        <div class="col-md-6">
+         <div class="form-group">
+          <input type="text" class="form-control" placeholder="Your Name">
         </div>
-      </nav>
-    </header>
-    <main role="main">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="first-slide" src="data/image/NCU.jpg" alt="First slide">
-            <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>主辦單位-國立中央大學統計所</h1>
-                <p>中央大學統計所成立於民國六十八年，為全國最早成立之獨立統計所，並於民國七十六年增設博士班，歷屆校友在產、官、學界均有傑出的表現。本所教師之學術研究在各領域皆為翹楚，且致力於學術之傳承。近年在新進教研人員的加入後，授課內容及統計學術研究之涵蓋面更趨多元與完備，且成果豐碩。</p>
-                <p><a class="btn btn-lg btn-primary"  href="http://www.stat.ncu.edu.tw/" role="button">NCU STAT</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>會議主講人-</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
-            <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>協辦單位-(誰給錢就放誰)</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
-      <!-- Marketing messaging and featurettes
-      ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-      <div class="container marketing">
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
+      <div class="col-md-6">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Your Email">
         </div>
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>&copy; 2020 國立中央大學統計所:李協諭、閃電小軒 &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-      </footer>
-    </main>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="jquery-3.2.1.slim.min.js" ></script>
-    <script>window.jQuery || document.write('<script src="docs/4-0/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="docs/4-0/assets/js/vendor/popper.min.js"></script>
-    <script src="docs/4-0/dist/js/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="docs/4-0/assets/js/vendor/holder.min.js"></script>
+      </div>
+      <div class="col-md-12">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Subject">
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="form-group">
+          <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="form-group">
+          <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+        </div>
+      </div>
+    </div>
+  </form>
+  
+</div>
+
+<div class="col-md-4 d-flex pl-md-5">
+ <div class="row">
+   <div class="dbox w-100 d-flex ftco-animate">
+    <div class="icon d-flex align-items-center justify-content-center">
+     <span class="fa fa-map-marker"></span>
+   </div>
+   <div class="text">
+     <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
+   </div>
+ </div>
+ <div class="dbox w-100 d-flex ftco-animate">
+  <div class="icon d-flex align-items-center justify-content-center">
+   <span class="fa fa-phone"></span>
+ </div>
+ <div class="text">
+   <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
+ </div>
+</div>
+<div class="dbox w-100 d-flex ftco-animate">
+  <div class="icon d-flex align-items-center justify-content-center">
+   <span class="fa fa-paper-plane"></span>
+ </div>
+ <div class="text">
+   <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
+ </div>
+</div>
+<div class="dbox w-100 d-flex ftco-animate">
+  <div class="icon d-flex align-items-center justify-content-center">
+   <span class="fa fa-globe"></span>
+ </div>
+ <div class="text">
+   <p><span>Website</span> <a href="#">yoursite.com</a></p>
+ </div>
+</div>
+</div>
+</div>
+<div class="col-md-12">
+ <div id="map" class="map"></div>
+</div>
+</div>
+</div>
+</section>	
+<?php include "footer.php" ?>
+</body>
 </html>
