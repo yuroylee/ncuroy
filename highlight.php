@@ -70,14 +70,15 @@
 <section class="ftco-section bg-light">
   <div class="container">
     <div class="row d-flex">
-      <div class="col-lg-4 ftco-animate">
+     
+    <div class="col-lg-4 ftco-animate">
         <div class="blog-entry">
           <a href="blog-single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
           </a>
           <div class="text d-block">
            <div class="meta">
             <p>
-             <a href="#"><span class="fa fa-calendar mr-2"></span>Aug. 27, 2020</a>
+             <span class="fa fa-calendar mr-2">Aug. 27, 2020</span>
              <a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
              <a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
            </p>
@@ -162,6 +163,7 @@
  </div>
 </div>
 </div>
+
 <div class="col-lg-4 ftco-animate">
   <div class="blog-entry">
     <a href="blog-single.html" class="block-20" style="background-image: url('images/image_6.jpg');">
@@ -185,7 +187,7 @@
   <div class="col text-center">
     <div class="block-27">
       <ul>
-        <li><a href="#">&lt;</a></li>
+        <li><a href="##">&lt;</a></li>
         <li class="active"><span>1</span></li>
         <li><a href="##">2</a></li>
         <li><a href="##">3</a></li>
@@ -199,7 +201,7 @@
 </div>
 </section>
 
-<?php include "footer.php" ?>
+<?php include_once "footer.php" ?>
 
 </body>
 </html>
