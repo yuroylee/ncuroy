@@ -122,8 +122,9 @@
 
 
 
-	<?php include_once "news.php" ?>
-	<?php include_once "sponsor.php" ?>
+	<?php include_once "news.php"?>
+
+
 	<section class="ftco-intro img" style="background-image: url(images/bg_4.jpg);">
 		<div class="overlay" ></div>
 		<div class="container">
@@ -136,7 +137,6 @@
 			</div>
 		</div>
 	</section>
-
 
 	<?php include_once "sponsor.php" ?>
 	<?php include_once "footer.php" ?>

@@ -1,7 +1,6 @@
 
 <?php
     //資料庫連結
-
     $host = 'localhost';
     //改成你登入phpmyadmin帳號
     $user = 'root';
@@ -24,6 +23,5 @@
         $page = intval($_GET["page"]); //確認頁數只能夠是數值資料
     }
     $start = ($page-1)*$per; //每一頁開始的資料序號
-
     $result = $connect->query($sql.' LIMIT '.$start.', '.$per) or die("Error");
 ?>
