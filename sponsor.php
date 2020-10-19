@@ -74,6 +74,7 @@
               <i class="fa fa-quote-left"></i>
             </span>
           </div>
+          
           <div class="text">
             <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia</p>
             <p class="name">Jeff Freshman</p>
