@@ -203,9 +203,6 @@
 	</section>
 
 
-
-
-
 	<?php include "sponsor.php" ?>
 	<?php include "footer.php" ?>
 	</body>
