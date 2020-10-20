@@ -1,6 +1,10 @@
 <?php
 $ID=$_POST['NewsID'];
-
+include "sql/sqlnew.php";
+$sql = "SELECT * FROM `news` WHERE `ID`=".$ID; //修改成你要的 SQL 語法
+$connect->query("SET NAMES 'utf8'");
+      //呼叫query方法(SQL語法)
+$status = $connect->query( $sql ) or die("Error");
 ?>
 <!DOCTYPE html>
 <html lang="zh-tw">
