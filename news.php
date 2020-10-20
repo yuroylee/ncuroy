@@ -1,3 +1,21 @@
+<?php
+  include "sql/sqlnew.php";
+  $sql = "SELECT * FROM `news` ORDER BY `Date` DESC"; //修改成你要的 SQL 語法
+  $connect->query("SET NAMES 'utf8'");
+//呼叫query方法(SQL語法)
+  $status = $connect->query( $sql );
+  $numRows =$status ->num_rows ;
+  $per = 3; //每頁顯示項目數量
+  $pages = ceil($numRows/$per); //取得不小於值的下一個整數
+  if (!isset($_GET["page"])){ //假如$_GET["page"]未設置
+      $page=1; //則在此設定起始頁數
+  } else {
+      $page = intval($_GET["page"]); //確認頁數只能夠是數值資料
+  }
+  $start = ($page-1)*$per; //每一頁開始的資料序號
+  $result = $connect->query($sql.' LIMIT '.$start.', '.$per) or die("Error");
+?>
+
 <section class="ftco-section bg-light" >
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
@@ -7,7 +25,7 @@
         </div>
         <div class="row d-flex">
         <?php
-         include "sql/sqlnew.php";
+ 
          while ($row = $result->fetch_assoc()){
           $ID=$row['ID'];
           $title=$row['title'];
@@ -24,9 +42,9 @@
             </div>
             <h3 class="heading"><?php echo $title?></h3>
             <p> <?php echo substr($content,0,50).'...';?></p>
-            <form action="newdetials.php" method="post">
-              <input type="hidden" value=<?php echo $ID;?> id="news">
-              <button type="submit" class="btn btn-secondary py-2 px-3">Read more</button>
+            <form action="infodetail.php" method="post">
+              <input type="hidden" name="NewsID" value=<?php echo $ID;?> />
+              <input type="submit" value="Read more" class="btn btn-secondary py-2 px-3">
             </form>
           </div>
         </div>

@@ -76,8 +76,8 @@
 				<div class="col-md-6 py-5 pl-md-5">
 					<div class="row justify-content-center mb-4 pt-md-4">
 						<div class="col-md-12 heading-section ftco-animate">
-							<span class="subheading">歡迎來到本站</span>
-							<h2 class="mb-4">歡迎參加中央統計研討會 (主辦人)中央統研所</h2>
+							<span class="subheading">(主辦人)中央統研所</span>
+							<h2 class="mb-4">歡迎參加中央統計研討會 </h2>
 							<p> 為了促進統計界</p>
 						</div>
 					</div>
