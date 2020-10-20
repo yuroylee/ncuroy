@@ -25,7 +25,7 @@
         </div>
         <div class="row d-flex">
         <?php
- 
+    
          while ($row = $result->fetch_assoc()){
           $ID=$row['ID'];
           $title=$row['title'];
@@ -50,11 +50,33 @@
         </div>
       </div>
   <?php
+
+    if($numRows%$per>0&&$page==$pages){
+      $j=0;  
+        while(($per-$numRows%$per)>($j)){
+ ?>
+        <div class="col-lg-4 ftco-animate">
+            <div class="blog-entry">
+              <a href="##" class="block-20" style="background-image: url('images/newimage/image_1.jpg');"></a>
+              <div class="text d-block">
+                <div class="meta">
+                  <p><span class="fa fa-calendar mr-2">2020-xx-xx</span></p>
+                </div>
+                <h3 class="heading">敬請期待 </h3>
+                <p>明天要報告. 時間Wed Apr 6 21:43:10 2011. 明天要報告還沒做完PTT 好開心幹是ppt不是ptt 幹怎麼那麼像-- ※ 發信站: 批踢踢實業坊(ptt.cc) ◇ From: ... </p>
+                <button type="submit" class="btn btn-secondary py-2 px-3">READ more </button>
+              </div>
+            </div>
+          </div>   
+<?php
+        $j++; 
+        }
       }
+   }
   ?>
 </div>
       <!--BUTTON-->
-
+</br>
       <div class="row mt-5">
       <div class="col text-center">
         <div class="block-27">

@@ -59,7 +59,9 @@ $status = $connect->query( $sql ) or die("Error");
 	</nav>
 </header>
 
-
+<?php
+echo $ID
+?>
 
 <?php include_once "sponsor.php" ?>
 	<?php include_once "footer.php" ?>
