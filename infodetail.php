@@ -1,10 +1,15 @@
 <?php
-$ID=$_POST['NewsID'];
+$ID=$_GET['NewsID'];
+$start=0;
+$per=3;
 include "sql/sqlnew.php";
 $sql = "SELECT * FROM `news` WHERE `ID`=".$ID; //修改成你要的 SQL 語法
 $connect->query("SET NAMES 'utf8'");
       //呼叫query方法(SQL語法)
-$status = $connect->query( $sql ) or die("Error");
+$status = $connect->query( $sql )->fetch_assoc() or die("Error");
+//取前三筆當最新訊息
+$sql = "SELECT * FROM `news` ORDER BY `Date` DESC";
+$result = $connect->query($sql.' LIMIT '.$start.', '.$per) or die("Error");
 ?>
 <!DOCTYPE html>
 <html lang="zh-tw">
@@ -60,8 +65,66 @@ $status = $connect->query( $sql ) or die("Error");
 </header>
 
 <?php
-echo $ID
+      $ID=$status['ID'];
+	  $titles_new=$status['title'];
+	  $content=$status['Content'];
+	  $Date=$status['Date'];
+	  
 ?>
+
+
+<section class="ftco-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 ftco-animate">
+		<h2 class="mb-3"><?php echo $titles_new;?></h2>
+		<h3 class="mb-3"><?php echo $Date;?></h3>
+        <p><?php echo $content?></p>
+        <p>
+          <img src="images/NCU3.jpg" alt="" class="img-fluid">
+        </p>
+	  </div> <!-- .col-md-8 -->
+	  
+
+    <div class="col-lg-4 sidebar ftco-animate">
+
+      <div class="sidebar-box ftco-animate">
+		<h3 class="heading-sidebar">Recent news</h3>
+		<?php
+		  while ($row = $result->fetch_assoc()){
+			$ID=$row['ID'];
+			$title=$row['title'];
+			$content=$row['Content'];
+			$Date=$row['Date'];
+			$IMAGE='images/newimage/image_'.$ID.'.jpg';
+		?>
+        <div class="block-21 mb-4 d-flex">
+          <a class="blog-img mr-4" style="background-image: url('<?php echo $IMAGE; ?>');"></a>
+          <div class="text">
+            <h3 class="heading"><a href="?NewsID=<?php echo $ID;?>"><?php echo $title; ?></a></h3>
+            <div class="meta">
+              <div><a href="?NewsID=<?php echo $ID;?>"><span class="icon-calendar"></span> <?php echo $Date;?></a></div>
+            </div>
+          </div>
+        </div>
+		<?php
+		  }
+		?>
+      </div>
+
+
+
+      <div class="sidebar-box ftco-animate">
+        <h3 class="heading-sidebar">Paragraph</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut, sunt placeat nam vero culpa sapiente consectetur similique, inventore eos fugit cupiditate numquam!</p>
+      </div>
+    </div>
+
+  </div>
+  </div>
+</section> <!-- .section -->
+
+
 
 <?php include_once "sponsor.php" ?>
 	<?php include_once "footer.php" ?>
