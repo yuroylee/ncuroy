@@ -57,7 +57,7 @@
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
 				<div class="col-lg-9 ftco-animate text-center">
 					<div class="mt-5">
-					<h1 class="mb-4">中央大學統計研討會</h1>
+					<h1 class="mb-4">第一屆統計傳薪研討會</h1>
 						<p class="mb-4">歡迎參加</p>
 						<p><a href="#" class="btn btn-primary">報名方式</a> 
 							<a href="#" class="btn btn-white">流程</a></p>
@@ -130,43 +130,43 @@
 					<div class="py-lg-5">
 						<div class="row justify-content-center pb-5">
 							<div class="col-md-12 heading-section ftco-animate fadeInUp ftco-animated">
-								<h2 class="mb-3">Why Choose To Rent In Equipo</h2>
+								<h2 class="mb-3">需求訪談</h2>
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate fadeInUp ftco-animated">
 								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-customer-service"></span></div>
+									<div class="icon justify-content-center align-items-center d-flex"></div>
 									<div class="media-body pl-4">
-										<h3 class="heading mb-3">24/7 Customer Service</h3>
-										<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+										<h3 class="heading mb-3"></h3>
+										<p></p>
 									</div>
 								</div>      
 							</div>
 							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate fadeInUp ftco-animated">
 								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-road-roller"></span></div>
+									<div class="icon justify-content-center align-items-center d-flex"></div>
 									<div class="media-body pl-4">
-										<h3 class="heading mb-3">Prompt Delivery</h3>
-										<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+										<h3 class="heading mb-3"></h3>
+										<p></p>
 									</div>
 								</div>      
 							</div>
 							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate fadeInUp ftco-animated">
 								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-road-roller"></span></div>
+									<div class="icon justify-content-center align-items-center d-flex"></div>
 									<div class="media-body pl-4">
-										<h3 class="heading mb-3">Reliable Equipment</h3>
-										<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+										<h3 class="heading mb-3"></h3>
+										<p></p>
 									</div>
 								</div>      
 							</div>
 							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate fadeInUp ftco-animated">
 								<div class="media block-6 services d-flex">
-									<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-road-roller"></span></div>
+									<div class="icon justify-content-center align-items-center d-flex"></div>
 									<div class="media-body pl-4">
-										<h3 class="heading mb-3">New Heavy Equipment</h3>
-										<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+										<h3 class="heading mb-3"></h3>
+										<p></p>
 									</div>
 								</div>      
 							</div>
@@ -176,34 +176,17 @@
 				<div class="col-md-5 d-flex">
 					<div class="appointment-wrap p-4 p-lg-5 d-flex align-items-center">
 						<div class="overlay"></div>
-						<form action="#" class="appointment-form ftco-animate fadeInUp ftco-animated">
-							<h3>Request Quote</h3>
+						<form action="demand.php" class="appointment-form ftco-animate fadeInUp ftco-animated">
+							<h3>需求訪談</h3>
 							<div class="">
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="First Name">
+									<input type="text" class="form-control" placeholder="Name">
 								</div>
 								<div class="form-group">
-									<input type="text" class="form-control" placeholder="Last Name">
+									<input type="text" class="form-control" placeholder="mail">
 								</div>
 								<div class="form-group">
 									<input type="text" class="form-control" placeholder="Phone">
-								</div>
-							</div>
-							<div class="">
-								<div class="form-group">
-									<div class="form-field">
-										<div class="select-wrap">
-											<div class="icon"><span class="fa fa-chevron-down"></span></div>
-											<select name="" id="" class="form-control">
-												<option value="">Select Your Services</option>
-												<option value="">Forklift</option>
-												<option value="">Bulldozer</option>
-												<option value="">Excavator</option>
-												<option value="">Road Roller</option>
-												<option value="">Other Services</option>
-											</select>
-										</div>
-									</div>
 								</div>
 							</div>
 							<div class="">

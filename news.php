@@ -42,7 +42,7 @@
             </div>
             <h3 class="heading"><?php echo $title?></h3>
             <p> <?php echo substr($content,0,50).'...';?></p>
-            <form action="infodetail.php" method="post">
+            <form action="infodetail.php" method="get">
               <input type="hidden" name="NewsID" value=<?php echo $ID;?> />
               <input type="submit" value="Read more" class="btn btn-secondary py-2 px-3">
             </form>
@@ -62,7 +62,7 @@
                 <div class="meta">
                   <p><span class="fa fa-calendar mr-2">2020-xx-xx</span></p>
                 </div>
-                <h3 class="heading">敬請期待 </h3>
+                <h3 class="heading"> 敬啟期待 </h3>
                 <p>明天要報告. 時間Wed Apr 6 21:43:10 2011. 明天要報告還沒做完PTT 好開心幹是ppt不是ptt 幹怎麼那麼像-- ※ 發信站: 批踢踢實業坊(ptt.cc) ◇ From: ... </p>
                 <button type="submit" class="btn btn-secondary py-2 px-3">READ more </button>
               </div>
