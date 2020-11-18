@@ -4,8 +4,7 @@
  <div class="container">
   <div class="row justify-content-center mb-5 pb-3">
     <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
-     <span class="subheading">贊助廠商</span>
-     <h2 class="mb-4">非常感謝贊助商與贊助者</h2>
+     <h2 class="mb-4">贊助商與贊助者</h2>
    </div>
  </div>
  <div class="row ftco-animate justify-content-center">

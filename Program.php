@@ -59,7 +59,7 @@
 					<div class="mt-5">
                     <h1 class="mb-4">中央大學統計研討會</h1>
 						<p class="mb-4">歡迎參加</p>
-						<p><a href="#" class="btn btn-primary">報名方式</a> 
+						<p><a href="https://ncustat.kktix.cc/events/conference110" class="btn btn-primary">報名方式</a>
 							<a href="#" class="btn btn-white">流程</a></p>
 					</div>
 				</div>
@@ -67,7 +67,7 @@
 		</div>
 	</section>
 <hr/>
-<h1 style='text-align:center; font:bold;'>活動議程</h1>
+<h1 style='text-align:center; font:bold;'>活動議程/講者</h1>
   <section class="intro">
             <div class="container">
                 <div class="row">

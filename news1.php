@@ -24,7 +24,7 @@
         </div>
         <div class="row d-flex">
         <?php
-    
+
          while ($row = $result->fetch_assoc()){
           $ID=$row['ID'];
           $title=$row['title'];
@@ -51,7 +51,7 @@
   <?php
 
     if($numRows%$per>0&&$page==$pages){
-      $j=0;  
+      $j=0;
         while(($per-$numRows%$per)>($j)){
  ?>
         <div class="col-lg-4 ftco-animate">
@@ -66,9 +66,9 @@
                 <button type="submit" class="btn btn-secondary py-2 px-3">READ more </button>
               </div>
             </div>
-          </div>   
+          </div>
 <?php
-        $j++; 
+        $j++;
         }
       }
    }
@@ -102,7 +102,7 @@
             }else{
               echo '<li><a href=?page='.($page+1).'#NEWS>&gt;</a></li>';
           }
-            ?>     
+            ?>
             </ul>
         </div>
       </div>

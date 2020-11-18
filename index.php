@@ -51,7 +51,7 @@
 	</nav>
 </header>
 	<!-- END nav -->
-	<section class="hero-wrap js-fullheight" style="background-image: url('images/NCU.jpg');" data-stellar-background-ratio="0.5">
+	<section class="hero-wrap js-fullheight" style="background-image: url('images/NCU.jpg');" data-stellar-background-ratio="0.2">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
@@ -59,14 +59,83 @@
 					<div class="mt-5">
 					<h1 class="mb-4">第一屆統計傳薪研討會</h1>
 						<p class="mb-4">歡迎參加</p>
-						<p><a href="#" class="btn btn-primary">報名方式</a> 
+						<p><a href="https://ncustat.kktix.cc/events/conference110" class="btn btn-primary">報名方式</a>
 							<a href="#" class="btn btn-white">流程</a></p>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="ftco-section ftco-counter ftco-no-pt ftco-no-pb" id="about-section">
+
+<section class="ftco-section">
+  <div class="container">
+                    <div class="row">
+                        <div class="col-md-12  ftco-animate">
+                            <h1>最新消息</h1>
+                            <hr/>
+                            <div class="widget widget_trafic">
+                                <ul>
+                                    <br/>
+                                    <li class="h4"> 2018.11.06 會議手冊及議程已更新-概要(日程表)</li>
+                                    <li class="h4"> 2018.11.04 會議手冊及議程已更新-概要(日程表)</li>
+                                    <li class="h4"> 2018.11.03 會議手冊可於下方點擊下載</li>
+                                    <li class="h4"> 2018.10.31 已開放議程及會議手冊於概要(日程表)下載-概要(日程表)</li>
+                                    <li class="h4"> 2018.10.19 暫定議程公布-概要(日程表)</li>
+                                    <li class="h4"> 2018.10.13 報名截止延至10月19日(不開放上傳論文摘要)-線上報名</li>
+                                    <li class="h4"> 2018.10.09 線上報名資訊更新-線上報名</li>
+                                    <li class="h4"> 2018.10.07 暫定議程公布-概要(日程表)</li>
+                                    <li class="h4"> 2018.10.02 暫定議程公布-概要(日程表)</li>
+                                    <li class="h4"> 2018.09.27 暫定議程公布-概要(日程表)</li>
+                                    <li class="h4"> 2018.08.21 研討會已開放報名-線上報名</li>
+                                    <li class="h4"> 2018.07.30 暫定議程已公布-概要(日程表)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+</section>
+
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-primary">
+		<div class="container">
+			<div class="row d-flex">
+				<div class="col-md-10 py-2">
+					<div class="py-lg-5">
+						<div class="row justify-content-center pb-5">
+							<div class="col-md-12 heading-section ftco-animate fadeInUp ftco-animated">
+								<h2 class="mb-3">最新消息</h2>
+							</div>
+						</div>
+                            <div class="widget widget_trafic">
+                                    <li class="h4"> 2018.11.06 會議手冊及議程已更新-概要(日程表)</li>
+                                    <li class="h4"> 2018.11.04 會議手冊及議程已更新-概要(日程表)</li>
+                                    <li class="h4"> 2018.11.03 會議手冊可於下方點擊下載</li>
+                                    <li class="h4"> 2018.10.31 已開放議程及會議手冊於概要(日程表)下載-概要(日程表)</li>
+                                    <li class="h4"> 2018.10.19 暫定議程公布-概要(日程表)</li>
+                                    <li class="h4"> 2018.10.13 報名截止延至10月19日(不開放上傳論文摘要)-線上報名</li>
+                                    <li class="h4"> 2018.10.09 線上報名資訊更新-線上報名</li>
+                                    <li class="h4"> 2018.10.07 暫定議程公布-概要(日程表)</li>
+                                    <li class="h4"> 2018.10.02 暫定議程公布-概要(日程表)</li>
+                                    <li class="h4"> 2018.09.27 暫定議程公布-概要(日程表)</li>
+                                    <li class="h4"> 2018.08.21 研討會已開放報名-線上報名</li>
+                                    <li class="h4"> 2018.07.30 暫定議程已公布-概要(日程表)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+		<section class="ftco-section ftco-counter ftco-no-pt ftco-no-pb" id="about-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 d-flex align-items-stretch">
@@ -122,7 +191,6 @@
 
 
 
-	<?php include_once "news.php"?>
 	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2 bg-primary">
 		<div class="container">
 			<div class="row d-flex">
@@ -203,6 +271,8 @@
 			</div>
 		</div>
 	</section>
+
+
 
 	<section class="ftco-intro img" style="background-image: url(images/bg_4.jpg);">
 		<div class="overlay" ></div>
