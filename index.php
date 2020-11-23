@@ -67,6 +67,174 @@
 		</div>
 	</section>
 
+
+<我新增的>
+	<div class="container">
+	    <div class="row">
+		    <div class="col-md-12">
+			    <table class="table">
+	                <thead>
+		                <tr>
+			                <th data-type="date" data-format="YYYY/MM/DD">Start Date</th>
+			                <th>title</th>
+			                <th>content</th>
+			                <th>href</th>
+		                </tr>
+	                </thead>
+	            <tbody>
+		            <tr><td>2005/02/11</td><td>報名事宜</td><td><span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">報名費流程已...more </span></td><td></td></tr>
+		            <tr><td>2005/02/11</td><td>報名事宜</td><td>123456</td><td></td></tr>
+		            <tr><td>2005/02/11</td><td>報名事宜</td><td>123456</td><td></td></tr>
+		            <tr><td>2005/02/11</td><td>報名事宜</td><td>123456</td><td></td></tr>
+		            <tr><td>2005/02/11</td><td>報名事宜</td><td>123456</td><td></td></tr>
+		            <tr><td>2005/02/11</td><td>報名事宜</td><td>123456</td><td></td></tr>
+		            <tr><td>2005/02/11</td><td>報名事宜</td><td>123456</td><td></td></tr>
+		            <tr><td>2005/02/11</td><td>報名事宜</td><td>123456</td><td></td></tr>
+		            <tr><td>2005/02/11</td><td>報名事宜</td><td>123456</td><td></td></tr>
+		            <tr><td>2005/02/11</td><td>報名事宜</td><td>123456</td><td></td></tr>
+	            </tbody>
+            </table>
+		</div>
+	</div>
+</div>
+
+<head>
+  <meta charset="UTF-8">
+
+    <link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+    <meta name="apple-mobile-web-app-title" content="CodePen">
+    <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+    <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+
+<title>CodePen - Vanilla DataTables</title>
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css'>
+    <link rel='stylesheet' href='https://unpkg.com/vanilla-datatables@latest/dist/vanilla-dataTables.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+<style>
+body {
+  background-color: #efefef;
+  align-items: center;
+  color: #333;
+  font-family: "Roboto";
+  font-weight: 400;
+  margin: 0;
+}
+
+.container {
+  margin-top: 5%;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  color: #333;
+  outline: medium none;
+  text-decoration: none;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: medium none;
+}
+
+#ribbon {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  font-weight: 400;
+  padding: 15px;
+  position: fixed;
+  right: -269px;
+  text-align: center;
+  top: -125px;
+  transform: rotate(45deg);
+  transform-origin: 0 0 0;
+  width: 500px;
+}
+#ribbon i {
+  font-size: 21px;
+  padding-right: 5px;
+  vertical-align: middle;
+}
+
+.dataTable-sorter::before {
+  bottom: 8px;
+}
+
+.dataTable-sorter::after {
+  top: 8px;
+}
+
+.selected td {
+  background-color: #27ae60;
+  color: #fff;
+}
+</style>
+
+  <script>
+    window.console = window.console || function(t) {};
+  </script>
+
+  <script>
+    if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+    }
+  </script>
+</head>
+
+<body translate="no" >
+<a href="https://github.com/Mobius1/Vanilla-DataTables" id="ribbon" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+	看有沒有用</a>
+    <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/86186/moment.js'></script>
+<script src='https://unpkg.com/vanilla-datatables@latest/dist/vanilla-dataTables.min.js'></script>
+
+      <script id="rendered-js" >
+var table = new DataTable("table");
+//# sourceURL=pen.js
+    </script>
+</body>
+
+
+
+
+
+<div class="modal fade" id="info01" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header" style="background-color:teal;">
+
+                                                <div class="row">
+                                                <div class="col-md-3">
+                                                    <img src="images/person_1.jpg" class="rounded-sm"  width="125%">
+                                                </div>
+
+                                                <div class="col-md-9">
+                                                    <h3 class="modal-title" id="myModalLabel">中央統研所 Hung-yi Lee</h3>
+                                                        <h5>報名流程</h5>
+                                                        <a class="btn btn-primary" href="http://speech.ee.ntu.edu.tw/~tlkagk/index.html" role="button">KKTIX</a>
+                                                    </div>
+
+                                             </div>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    人之初，性本善，性相近，習相遠，苟不教，性乃遷，教之道，貴以專，昔孟母，擇鄰處，子不學，斷機杼，竇燕山，有義方，教五子，名俱揚，養不教，父之過，教不嚴，師之惰，子不學，非所宜，幼不學，老何為，玉不琢，不成器，人不學，不知義，為人子，方少時，親師友，習禮儀，香九齡，能溫席，孝於親，所當執，融四歲，能讓梨，弟於長，宜先知，首孝弟，次見聞，知某數，識某文，一而十，十而百，百而千，千而萬，三才者，天地人，三光者，日月星，三綱者，君臣義，父子親，夫婦順，日春夏，日秋冬，此四時，運不窮，曰南北，曰西東，此四方，應乎中，</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
 <section class="ftco-section">
   <div class="container">
                     <div class="row">
