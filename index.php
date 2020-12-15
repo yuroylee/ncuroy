@@ -51,14 +51,21 @@
 	</nav>
 </header>
 	<!-- END nav -->
-	<section class="hero-wrap js-fullheight" style="background-image: url('images/NCU.jpg');" data-stellar-background-ratio="0.5">
+
+
+
+	<section class="hero-wrap js-fullheight" style="background-image: url('images/BG5.jpg');" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
 				<div class="col-lg-9 ftco-animate text-center">
 					<div class="mt-5">
-					<h1 class="mb-4">第一屆統計傳薪研討會</h1>
-						<p class="mb-4">歡迎參加</p>
+					<h1 class="mb-4"><font color="#FAFAFA">110年第一屆統計傳薪研討會</font></h1>
+					    <h2><font color="#FAFAFA">會議簡介</font></h2>
+					        <p><font color="#FAFAFA">第一屆統計傳薪學術研討會由國立中央大學統計研究所主辦，會議在國立中央大學舉行，並與科技部數學研究推動中心、中央研究院統計科學研究所、中華機率統計學會、國立中央大學理學院、及台灣量化交易協會合辦。</br>
+                            研討會源自於中華機率統計學會理事長黃文瀚教授的提議，希望提供年輕統計學者們一個互動交流的舞台，並由有經驗或資深的師長們傳承相關經歷。接受薪傳的年輕統計學者們為後繼者與接棒者，皆已象徵統計新苗與新秀之意，故國立中央大學統計研究所將會議名稱訂為「統計傳薪學術研討會」。國立中央大學統計研究所為國內最早之獨立統計研究所，因此主辦此第一屆研討會別具意義。</br>
+                            大會主講人將以經驗傳承為主軸，分享教學、研究、與服務的心路歷程，各場次邀請的主角則為新進教師與博士後研究員，同時亦邀請各學術單位的主管、師長、與同學們參與，期望藉由會議的過程給予年輕統計學者們各方面的協助與諮詢，使統計傳薪學術研討會發揮最大的功效。</font>
+                            </p>
 						<p><a href="#" class="btn btn-primary">報名方式</a> 
 							<a href="#" class="btn btn-white">流程</a></p>
 					</div>
@@ -66,6 +73,26 @@
 			</div>
 		</div>
 	</section>
+
+    <section class="ftco-intro img" style="background-image: url(images/bg_4.jpg);">
+		<div class="overlay" ></div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-12 text-center">
+				<h2>　　　　　　</h2>
+					<h2>會議簡介</h2>
+					<p>第一屆統計傳薪學術研討會由國立中央大學統計研究所主辦，會議在國立中央大學舉行，並與科技部數學研究推動中心、中央研究院統計科學研究所、中華機率統計學會、國立中央大學理學院、及台灣量化交易協會合辦。</br>
+                            研討會源自於中華機率統計學會理事長黃文瀚教授的提議，希望提供年輕統計學者們一個互動交流的舞台，並由有經驗或資深的師長們傳承相關經歷。接受薪傳的年輕統計學者們為後繼者與接棒者，皆已象徵統計新苗與新秀之意，故國立中央大學統計研究所將會議名稱訂為「統計傳薪學術研討會」。國立中央大學統計研究所為國內最早之獨立統計研究所，因此主辦此第一屆研討會別具意義。</br>
+                            大會主講人將以經驗傳承為主軸，分享教學、研究、與服務的心路歷程，各場次邀請的主角則為新進教師與博士後研究員，同時亦邀請各學術單位的主管、師長、與同學們參與，期望藉由會議的過程給予年輕統計學者們各方面的協助與諮詢，使統計傳薪學術研討會發揮最大的功效。
+</p>
+					<p class="mb-0"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfUu1rLsbfwNPQHjvhEMlMCiDrgWDcdDiNmHPHCmaoS4pw8mQ/viewform?usp=sf_link" class="btn btn-primary px-4 py-3">需求填表</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
 	<section class="ftco-section ftco-counter ftco-no-pt ftco-no-pb" id="about-section">
 		<div class="container">
 			<div class="row">
@@ -175,18 +202,7 @@
 	</section>
 
 
-	<section class="ftco-intro img" style="background-image: url(images/bg_4.jpg);">
-		<div class="overlay" ></div>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-12 text-center">
-					<h2>需求與問題</h2>
-					<p>我們會盡量符合來賓的需求</p>
-					<p class="mb-0"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfUu1rLsbfwNPQHjvhEMlMCiDrgWDcdDiNmHPHCmaoS4pw8mQ/viewform?usp=sf_link" class="btn btn-primary px-4 py-3">需求填表</a></p>
-				</div>
-			</div>
-		</div>
-	</section>
+
 
 	<?php include_once "sponsor.php" ?>
 	<?php include_once "footer.php" ?>
