@@ -20,7 +20,8 @@
   <div class="container">
     <div class="row justify-content-center mb-5 pb-3">
       <div class="col-md-10 heading-section text-center ftco-animate">
-					<h2 class="mb-4">講者資訊</h2>
+					<span class="subheading" id="NEWS">最新消息</span>
+					<h2 class="mb-4">Latest NEWS Updates</h2>
         </div>
         <div class="row d-flex">
         <?php
@@ -37,7 +38,7 @@
           <a href="##" class="block-20" style="background-image: url('<?php echo $IMAGE; ?>');"></a>
           <div class="text d-block">
             <div class="meta">
-              <p><span class="fa fa-calendar mr-2"><?php echo $ID;?></span></p>
+              <p><span class="fa fa-calendar mr-2"><?php echo $Date;?></span></p>
             </div>
             <h3 class="heading"><?php echo $title?></h3>
             <p> <?php echo substr($content,0,50).'...';?></p>

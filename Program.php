@@ -51,15 +51,19 @@
 	</nav>
 </header>
 	<!-- END nav -->
-	<section class="hero-wrap js-fullheight" style="background-image: url('images/NCU2.jpg');" data-stellar-background-ratio="0.5">
+	<section class="hero-wrap js-fullheight" style="background-image: url('images/BG5.jpg');" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center" data-scrollax-parent="true">
 				<div class="col-lg-9 ftco-animate text-center">
 					<div class="mt-5">
-                    <h1 class="mb-4">中央大學統計研討會</h1>
-						<p class="mb-4">歡迎參加</p>
-						<p><a href="https://ncustat.kktix.cc/events/conference110" class="btn btn-primary">報名方式</a>
+					<h1 class="mb-4"><font color="#FAFAFA">110年第一屆統計傳薪研討會</font></h1>
+					    <h2><font color="#FAFAFA">會議簡介</font></h2>
+					        <p><font color="#FAFAFA">第一屆統計傳薪學術研討會由國立中央大學統計研究所主辦，會議在國立中央大學舉行，並與科技部數學研究推動中心、中央研究院統計科學研究所、中華機率統計學會、國立中央大學理學院、及台灣量化交易協會合辦。</br>
+                            研討會源自於中華機率統計學會理事長黃文瀚教授的提議，希望提供年輕統計學者們一個互動交流的舞台，並由有經驗或資深的師長們傳承相關經歷。接受薪傳的年輕統計學者們為後繼者與接棒者，皆已象徵統計新苗與新秀之意，故國立中央大學統計研究所將會議名稱訂為「統計傳薪學術研討會」。國立中央大學統計研究所為國內最早之獨立統計研究所，因此主辦此第一屆研討會別具意義。</br>
+                            大會主講人將以經驗傳承為主軸，分享教學、研究、與服務的心路歷程，各場次邀請的主角則為新進教師與博士後研究員，同時亦邀請各學術單位的主管、師長、與同學們參與，期望藉由會議的過程給予年輕統計學者們各方面的協助與諮詢，使統計傳薪學術研討會發揮最大的功效。</font>
+                            </p>
+						<p><a href="#" class="btn btn-primary">報名方式</a> 
 							<a href="#" class="btn btn-white">流程</a></p>
 					</div>
 				</div>
@@ -67,7 +71,7 @@
 		</div>
 	</section>
 <hr/>
-<h1 style='text-align:center; font:bold;'>活動議程/講者</h1>
+<h1 style='text-align:center; font:bold;'>活動議程</h1>
   <section class="intro">
             <div class="container">
                 <div class="row">
@@ -75,7 +79,107 @@
                         <table class="table table-bordered text-center">
                             <tbody>
                                     <tr>
-                                        <td>09:00 - 09:30</td>
+                                        <td>
+                                            08:30 - 09:00
+                                        </td>
+                                        <td colspan="4">
+                                                  <!-- <h4>敬請期待</h4> -->
+                                        <h4> 報到</h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            09:00 - 09:20
+                                        </td>
+                                        <td colspan="4">
+                                                  <!-- <h4>敬請期待</h4> -->
+                                        <h4> 開幕式</h4>
+                                        <span class="label label-primary">致詞嘉賓: </span>
+                                        <span data-toggle="modal" data-target="#廖俊智" class="text-primary speaker-info">林宗泰 / 中央大學理學院院長</span><br/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            09:20 - 10:10
+                                        </td>
+                                        <td colspan="4">
+                                            <h4>大會主講</h4>
+                                            <span data-toggle="modal" data-target="#六0C_李仁杰" class="text-primary speaker-info">銀慶剛 / 中央大學統計所特聘教授</span><br>
+                                            <span>主持: 陳君厚 / 中央研究院統計研究所所長</span>
+                                            <br/>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            10:10 - 10:20
+                                        </td>
+                                        <td colspan="4">
+                                                  <!-- <h4>敬請期待</h4> -->
+                                        <h4> 合影</h4>
+                                        </td>
+                                    </tr>
+                                    <tr style="background-color:orange;">
+                                        <td>10:20 - 10:40</td>
+                                        <td colspan="4" ><h4 style='font-weight: bold;'>茶點時間<h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            10:40 - 12:20
+                                        </td>
+                                        <td colspan="4">
+                                            <h4>Session 1</h4>
+                                        </td>
+                                    </tr>
+                                    <tr style="background-color:orange;">
+                                        <td>12:20 - 13:50</td>
+                                        <td colspan="4" ><h4 style='font-weight: bold;'>午餐 / 中華機率統計學會理監事會議<h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            13:50 - 15:30
+                                        </td>
+                                        <td colspan="4">
+                                            <h4>Session 2</h4>
+                                        </td>
+                                    </tr>
+                                    <tr style="background-color:orange;">
+                                        <td>15:30 - 15:50</td>
+                                        <td colspan="4" ><h4 style='font-weight: bold;'>茶點時間<h4></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            15:50 - 17:30
+                                        </td>
+                                        <td colspan="4">
+                                            <h4>Session 3</h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            17:30 - 18:00
+                                        </td>
+                                        <td colspan="4">
+                                                  <!-- <h4>敬請期待</h4> -->
+                                        <h4> 前往晚宴會場</h4>
+                                        </td>
+                                    </tr>
+                                    <tr style="background-color:orange;">
+                                        <td>18:00 - 20:30</td>
+                                        <td colspan="4" ><h4 style='font-weight: bold;'>晚宴<h4></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>08:30 - 09:00</td>
+                                        <td colspan="4">
+                                                  <!-- <h4>敬請期待</h4> -->
+                                        <h4> 開幕式<a href="http://www.slideshare.net/tw_dsconf/2016-64093833" title="投影片" target="_blank"><i class="fa fa-slideshare -slideshow"></i></a></h4>
+                                        <span class="label label-primary">致詞嘉賓</span>
+                                        <span data-toggle="modal" data-target="#廖俊智" class="text-primary speaker-info">廖俊智 / 中央研究院院長</span><br/>
+                                        <span data-toggle="modal" data-target="#info01" class="text-primary speaker-info">陳昇瑋 / 年會總召、台灣資料科學協會理事長</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>08:30 - 09:00</td>
                                         <td colspan="4">
                                                   <!-- <h4>敬請期待</h4> -->
                                         <h4> 開幕式<a href="http://www.slideshare.net/tw_dsconf/2016-64093833" title="投影片" target="_blank"><i class="fa fa-slideshare -slideshow"></i></a></h4>
